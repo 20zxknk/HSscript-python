@@ -1,0 +1,40 @@
+=== 配置：模式=standard 卡组位=1(点3次) 匹配超时=120s 上限=600s 局数上限=1 ===
+=== 推荐桥：<SCRIPT_MAIN>\recommendation_server.py
+[run] 客户区 1905x982 比例=1.940
+[rec] 录制目录: <REPO>\test\t1
+[rec] 鼠标 LL 钩子: 已挂上
+[run] 动作日志: logs\actions-20261027_005202.jsonl
+[bridge] 握手期状态行: status=loading
+[run] 桥已提前挂载
+[powerlog] 按括号前进: eid=47 HAND -> PLAY（tag=1196 value=0）
+[powerlog] tag=CARDTYPE 的 value 不是整数：'ENCHANTMENT'（累计 1）
+[powerlog] 按括号前进: eid=40 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=62 HAND -> PLAY（tag=1196 value=0）
+[powerlog] tag=CARDTYPE 的 value 不是整数：'ENCHANTMENT'（累计 2）
+[powerlog] tag=CARDTYPE 的 value 不是整数：'ENCHANTMENT'（累计 3）
+[powerlog] 按括号前进: eid=55 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=47 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=39 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=59 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=61 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号落位: eid=51 DECK1 -> HAND1
+[powerlog] 按括号落位: eid=68 DECK4 -> HAND4
+[powerlog] 按括号前进: eid=44 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=40 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=45 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=41 HAND -> PLAY（tag=1196 value=0）
+[run] 进对局前界面: mode=GAMEPLAY
+[nav] to_hub: mode=GAMEPLAY 第1次 (剩 120s)
+[nav] 对局已结束，点「点击继续」离开结算界面
+[nav] 对局已结束，点「点击继续」离开结算界面
+[nav] 对局已结束，点「点击继续」离开结算界面
+[nav] 对局已结束，点「点击继续」离开结算界面
+[nav] 对局已结束，点「点击继续」离开结算界面
+[nav] 对局已结束，点「点击继续」离开结算界面
+[nav] 对局已结束，点「点击继续」离开结算界面
+[nav] 对局已结束，点「点击继续」离开结算界面
+[nav] to_hub: mode=GAMEPLAY 第9次 (剩 97s)
+[nav] 对局已结束，点「点击继续」离开结算界面
+[nav] 对局已结束，点「点击继续」离开结算界面
+[nav] 对局已结束，点「点击继续」离开结算界面
+[nav] 对局已结束，点「点击继续」离开结算界面

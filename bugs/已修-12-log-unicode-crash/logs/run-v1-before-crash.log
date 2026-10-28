@@ -1,0 +1,145 @@
+=== ÅäÖÃ£ºÄ£Ê½=standard ¿¨×éÎ»=1(µã3´Î) Æ¥Åä³¬Ê±=120s ÉÏÏŞ=600s ¾ÖÊıÉÏÏŞ=1 ===
+=== ÍÆ¼öÇÅ£º<SCRIPT_MAIN>\recommendation_server.py
+[mouse] ĞĞÎª¿ËÂ¡£º<REPO>\data\move_templates.json
+[run] ¿Í»§Çø 1905x982 ±ÈÀı=1.940
+[rec] Â¼ÖÆÄ¿Â¼: <REPO>\test\v1
+[rec] Êó±ê LL ¹³×Ó: ÒÑ¹ÒÉÏ
+[run] ¶¯×÷ÈÕÖ¾: logs\actions-20261027_095302.jsonl
+[bridge] ÎÕÊÖÆÚ×´Ì¬ĞĞ: status=loading
+[run] ÇÅÒÑÌáÇ°¹ÒÔØ
+[powerlog] tag=CARDTYPE µÄ value ²»ÊÇÕûÊı£º'ENCHANTMENT'£¨ÀÛ¼Æ 1£©
+[powerlog] °´À¨ºÅÂäÎ»: eid=29 DECK1 -> HAND1
+[powerlog] °´À¨ºÅÂäÎ»: eid=37 DECK2 -> HAND2
+[powerlog] °´À¨ºÅÂäÎ»: eid=50 DECK3 -> HAND3
+[powerlog] °´À¨ºÅÂäÎ»: eid=51 DECK4 -> HAND4
+[powerlog] tag=CARDTYPE µÄ value ²»ÊÇÕûÊı£º'ENCHANTMENT'£¨ÀÛ¼Æ 2£©
+[powerlog] tag=CARDTYPE µÄ value ²»ÊÇÕûÊı£º'ENCHANTMENT'£¨ÀÛ¼Æ 3£©
+[powerlog] °´À¨ºÅÇ°½ø: eid=66 HAND -> PLAY£¨tag=1196 value=0£©
+[powerlog] °´À¨ºÅÇ°½ø: eid=9 HAND -> PLAY£¨tag=1196 value=0£©
+[powerlog] °´À¨ºÅÇ°½ø: eid=8 HAND -> PLAY£¨tag=1196 value=0£©
+[powerlog] °´À¨ºÅÇ°½ø: eid=74 HAND -> PLAY£¨tag=1196 value=0£©
+[powerlog] °´À¨ºÅÇ°½ø: eid=99 HAND -> PLAY£¨tag=1196 value=0£©
+[powerlog] °´À¨ºÅÇ°½ø: eid=104 HAND -> PLAY£¨tag=1196 value=0£©
+[run] ½ø¶Ô¾ÖÇ°½çÃæ: mode=GAMEPLAY
+[nav] to_hub: mode=GAMEPLAY µÚ1´Î (Ê£ 120s)
+[nav] ¶Ô¾ÖÒÑ½áÊø£¬µã¡¸µã»÷¼ÌĞø¡¹Àë¿ª½áËã½çÃæ
+[nav] ¶Ô¾ÖÒÑ½áÊø£¬µã¡¸µã»÷¼ÌĞø¡¹Àë¿ª½áËã½çÃæ
+=== ½ø¶ÔÕ½£¨µÚ 1 ´Î, Ä£Ê½=standard ¿¨×éÎ»=1, µ±Ç°¶Î 1£©===
+[nav] go_tournament: mode=HUB µÚ1´Î seq_done=False (Ê£ 240s)
+[nav] µã»÷ÇĞ»»Ä£Ê½°´Å¥
+[nav] ÇĞ»»ÖÁ standard Ä£Ê½
+[nav] Ä£Ê½Ğ£Ñé -> None
+[nav] Ñ¡ÔñÌ×ÅÆ£ºµÚ 1 ºÅÎ»£¬µã 3 ´Î
+[nav] ¿ªÊ¼Æ¥Åä
+[nav] go_tournament: mode=TOURNAMENT µÚ9´Î seq_done=True (Ê£ 196s)
+[nav] Æ¥ÅäÖĞ£ºµãÒ»´Î¡¸È·¶¨¡¹£¨¿ÉÄÜµ¯ÁË¿ªÈü´íÎó£©
+[nav] Æ¥ÅäÖĞ£ºµãÒ»´Î¡¸È·¶¨¡¹£¨¿ÉÄÜµ¯ÁË¿ªÈü´íÎó£©
+[nav] ÒÑ½øÈë¶Ô¾Ö
+[run] ĞÂ¶Ô¾ÖÒÑ¿ªÊ¼£¨¶Î 1->2£¬»»ÅÆÖĞ£©
+[run] ÈÕÖ¾ÒÑ¶¤ËÀ: <HS_LOGS>\Hearthstone_2026_10_27_09_41_16\Power.log
+[powerlog] tag=CARDTYPE µÄ value ²»ÊÇÕûÊı£º'ENCHANTMENT'£¨ÀÛ¼Æ 1£©
+[powerlog] °´À¨ºÅÂäÎ»: eid=29 DECK1 -> HAND1
+[powerlog] °´À¨ºÅÂäÎ»: eid=37 DECK2 -> HAND2
+[powerlog] °´À¨ºÅÂäÎ»: eid=50 DECK3 -> HAND3
+[powerlog] °´À¨ºÅÂäÎ»: eid=51 DECK4 -> HAND4
+[powerlog] tag=CARDTYPE µÄ value ²»ÊÇÕûÊı£º'ENCHANTMENT'£¨ÀÛ¼Æ 2£©
+[powerlog] tag=CARDTYPE µÄ value ²»ÊÇÕûÊı£º'ENCHANTMENT'£¨ÀÛ¼Æ 3£©
+[powerlog] °´À¨ºÅÇ°½ø: eid=66 HAND -> PLAY£¨tag=1196 value=0£©
+[powerlog] °´À¨ºÅÇ°½ø: eid=9 HAND -> PLAY£¨tag=1196 value=0£©
+[powerlog] °´À¨ºÅÇ°½ø: eid=8 HAND -> PLAY£¨tag=1196 value=0£©
+[powerlog] °´À¨ºÅÇ°½ø: eid=74 HAND -> PLAY£¨tag=1196 value=0£©
+[powerlog] °´À¨ºÅÇ°½ø: eid=99 HAND -> PLAY£¨tag=1196 value=0£©
+[powerlog] °´À¨ºÅÇ°½ø: eid=104 HAND -> PLAY£¨tag=1196 value=0£©
+[run] ¶¤ËÀºóÖØ½¨: ÊµÌå=81 my_id=1 turn=0 hand=0
+[rec] Power.log ĞğÊöÆğµãÆ«ÒÆ: 1000034
+[mouse] ĞĞÎª¿ËÂ¡£º<REPO>\data\move_templates.json
+[engine] ÒÑ¾ÍĞ÷£¨´°¿Ú + ÇÅ + Í¬²½²ã£©
+[engine] ¶¯×÷Ç°ÖØ²é(»»ÅÆÇ°Ì½²â) ºÄÊ±0ms optionId=-1 turnNum=1 n=1 ¡ú mulligan  ÊÖNone ³¡None Ä¿±ê=None:None/None
+[engine] µÈ¿ª¾Ö¶¯»­ 20s
+[engine] ÆğÊÖ 4 ÕÅ£¨»»ÅÆÃæ°å 4 ²Û²¼¾Ö£©
+[engine] ¶¯×÷Ç°ÖØ²é(»»ÅÆÇ°) ºÄÊ±0ms optionId=-1 turnNum=1 n=1 ¡ú mulligan  ÊÖNone ³¡None Ä¿±ê=None:None/None
+[engine] °´ºĞ×Ó»»ÅÆ: Ìæ»» [2, 3]£¨ÆğÊÖ 4 ÕÅ£©
+[run] »»ÅÆÍê³É
+[powerlog] °´À¨ºÅÂäÎ»: eid=7 DECK1 -> HAND1
+[powerlog] °´À¨ºÅÂäÎ»: eid=30 DECK4 -> HAND4
+[engine] ¶ÔÊÖ»ØºÏ turn=1£¨GameTURN=1£©
+[engine] µÈ´ıÖĞ mode=GAMEPLAY turn=1 cur=2 me=1 hand=4 board=0
+[powerlog] °´À¨ºÅÇ°½ø: eid=34 HAND -> PLAY£¨tag=1196 value=0£©
+[engine] ¶¯×÷Ç°ÖØ²é(Ö÷Ñ­»·) ºÄÊ±1ms optionId=-1 turnNum=1 n=0 ¡ú ÎŞ·½°¸
+[engine] ¶¯×÷Ç°ÖØ²é(Ö÷Ñ­»·) ºÄÊ±0ms optionId=3 turnNum=2 n=1 ¡ú play GAME_005 ÊÖ5 ³¡None Ä¿±ê=None:None/None
+[step 001] ok:my_turn turn=1 current_player=1 my_id=1 options_seq=9615 turn_seq=9394
+[step 002] plan_A action=play card=GAME_005 box_hand=5 box_board=None box_target=None:None turn=1 mine=True seq=9628 ver=14 hand=['BE_085', 'TLC_451', 'CORE_SCH_713', 'CATA_210', 'GAME_005', 'BE_207'] board=[]
+[step 003] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "play", "hand_position": 5, "board_position": null, "target": null, "target_position": null, "target_card_id": null, "card_name": "ĞÒÔË±Ò", "card_id": "GAME_005", "ai_win_rate": 53, "mulligan_positions": null, "option_id": 3, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "play_special", "card": {"ZONE_POSITION": 5, "cardId": "GAME_005", "cardName": "ĞÒÔË±Ò"}, "using_disguised": 0}], "error": "", "optionId": 3, "status": 2, "turnNum": 2}, "timestamp": "2026-10-27T09:55:06.079105"}
+[step 004] ok:hand_slot_bound slot=5 size=6 card=GAME_005
+[step 005] ok:hand_size hand_size=6 slot=5
+[step 006] ok:card_usable card=GAME_005 eid=78 error=NONE slot=5 src=option_map
+[engine]   ÊÖÅÆ[6] 1:BE_085 2:TLC_451 3:CORE_SCH_713 4:CATA_210 5:GAME_005 6:BE_207 | ºĞ×Ó²Û=5 cardId=GAME_005 -> ÓÃ²Û 5/6
+[step 007] ok:board_index index=0 size=0
+[engine]   ³¡Ãæ[0] ºĞ×ÓÉÏ³¡Î»=None -> Âäµã²Û 1
+[step 008] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [1009, 939], 'screen': [1023, 988]}, {'tag': 'mlc_end', 'client': [1021, 546], 'screen': [1035, 595]}] resolved={'hand_slot': 5, 'hand_size': 6, 'board_index': 0, 'board_size': 0}
+[step 009] ok:action_effect action=play card=GAME_005 evidence=PLAY¿é before=9628 after=9694 clicks=[{'tag': 'mlc_start', 'client': [1009, 939], 'screen': [1023, 988]}, {'tag': 'mlc_end', 'client': [1021, 546], 'screen': [1035, 595]}]
+[engine] ¶¯×÷Ç°ÖØ²é(Ö÷Ñ­»·) ºÄÊ±1ms optionId=4 turnNum=2 n=1 ¡ú play BE_085 ÊÖ1 ³¡None Ä¿±ê=None:None/None
+[step 010] ok:my_turn turn=1 current_player=1 my_id=1 options_seq=9688 turn_seq=9394
+[step 011] plan_A action=play card=BE_085 box_hand=1 box_board=None box_target=None:None turn=1 mine=True seq=9694 ver=16 hand=['BE_085', 'TLC_451', 'CORE_SCH_713', 'CATA_210', 'BE_207'] board=[]
+[step 012] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "play", "hand_position": 1, "board_position": null, "target": null, "target_position": null, "target_card_id": null, "card_name": "ÕÙ»½ÒÇÊ½", "card_id": "BE_085", "ai_win_rate": 53, "mulligan_positions": null, "option_id": 4, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "play_special", "card": {"ZONE_POSITION": 1, "cardId": "BE_085", "cardName": "ÕÙ»½ÒÇÊ½"}, "using_disguised": 0}], "error": "", "optionId": 4, "status": 2, "turnNum": 2}, "timestamp": "2026-10-27T09:55:10.546813"}
+[step 013] ok:hand_slot_bound slot=1 size=5 card=BE_085
+[step 014] ok:hand_size hand_size=5 slot=1
+[step 015] ok:card_usable card=BE_085 eid=7 error=NONE slot=1 src=option_map
+[engine]   ÊÖÅÆ[5] 1:BE_085 2:TLC_451 3:CORE_SCH_713 4:CATA_210 5:BE_207 | ºĞ×Ó²Û=1 cardId=BE_085 -> ÓÃ²Û 1/5
+[step 016] ok:board_index index=0 size=0
+[engine]   ³¡Ãæ[0] ºĞ×ÓÉÏ³¡Î»=None -> Âäµã²Û 1
+[step 017] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [719, 942], 'screen': [733, 991]}, {'tag': 'mlc_end', 'client': [1016, 554], 'screen': [1030, 603]}] resolved={'hand_slot': 1, 'hand_size': 5, 'board_index': 0, 'board_size': 0}
+[step 018] ok:action_effect action=play card=BE_085 evidence=PLAY¿é before=9694 after=9780 clicks=[{'tag': 'mlc_start', 'client': [719, 942], 'screen': [733, 991]}, {'tag': 'mlc_end', 'client': [1016, 554], 'screen': [1030, 603]}]
+[engine] ¶¯×÷Ç°ÖØ²é(Ö÷Ñ­»·) ºÄÊ±0ms optionId=5 turnNum=2 n=1 ¡ú end  ÊÖNone ³¡None Ä¿±ê=None:None/None
+[step 019] ok:my_turn turn=1 current_player=1 my_id=1 options_seq=9780 turn_seq=9394
+[step 020] plan_A action=end card=None box_hand=None box_board=None box_target=None:None turn=1 mine=True seq=9780 ver=18 hand=['TLC_451', 'CORE_SCH_713', 'CATA_210', 'BE_207'] board=[]
+[step 021] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "end", "hand_position": null, "board_position": null, "target": null, "target_position": null, "target_card_id": null, "card_name": null, "card_id": null, "ai_win_rate": 53, "mulligan_positions": null, "option_id": 5, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "end_turn"}], "error": "", "optionId": 5, "status": 2, "turnNum": 2}, "timestamp": "2026-10-27T09:55:20.772813"}
+[step 022] clicked n=1 clicks=[{'tag': 'lclick', 'client': [1509, 457], 'screen': [1523, 506]}] resolved={}
+[step 023] ok:action_effect action=end card=None evidence=»ØºÏÒÑ½»³ö before=9780 after=9992 clicks=[{'tag': 'lclick', 'client': [1509, 457], 'screen': [1523, 506]}]
+[engine] ¶ÔÊÖ»ØºÏ turn=2£¨GameTURN=3£©
+[engine] µÈ´ıÖĞ mode=GAMEPLAY turn=2 cur=2 me=1 hand=4 board=0
+[engine] µÈ´ıÖĞ mode=GAMEPLAY turn=2 cur=2 me=1 hand=4 board=0
+[powerlog] °´À¨ºÅÇ°½ø: eid=54 HAND -> PLAY£¨tag=1196 value=0£©
+[powerlog] °´À¨ºÅÇ°½ø: eid=48 HAND -> PLAY£¨tag=1196 value=0£©
+[engine] ¶¯×÷Ç°ÖØ²é(Ö÷Ñ­»·) ºÄÊ±0ms optionId=5 turnNum=2 n=1 ¡ú end  ÊÖNone ³¡None Ä¿±ê=None:None/None
+[step 024] ok:my_turn turn=2 current_player=1 my_id=1 options_seq=10641 turn_seq=10377
+[step 025] plan_A action=end card=None box_hand=None box_board=None box_target=None:None turn=2 mine=True seq=10641 ver=31 hand=['TLC_451', 'CORE_SCH_713', 'CATA_210', 'BE_207', 'BE_728'] board=[]
+[step 026] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "end", "hand_position": null, "board_position": null, "target": null, "target_position": null, "target_card_id": null, "card_name": null, "card_id": null, "ai_win_rate": 74, "mulligan_positions": null, "option_id": 5, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "end_turn"}], "error": "", "optionId": 5, "status": 2, "turnNum": 2}, "timestamp": "2026-10-27T09:55:42.222735"}
+[step 027] clicked n=1 clicks=[{'tag': 'lclick', 'client': [1493, 457], 'screen': [1507, 506]}] resolved={}
+[step 028] ok:action_effect action=end card=None evidence=»ØºÏÒÑ½»³ö before=10641 after=10868 clicks=[{'tag': 'lclick', 'client': [1493, 457], 'screen': [1507, 506]}]
+[engine] ¶ÔÊÖ»ØºÏ turn=3£¨GameTURN=5£©
+[engine] µÈ´ıÖĞ mode=GAMEPLAY turn=3 cur=2 me=1 hand=5 board=0
+[engine] µÈ´ıÖĞ mode=GAMEPLAY turn=3 cur=2 me=1 hand=5 board=0
+[engine] ¶¯×÷Ç°ÖØ²é(Ö÷Ñ­»·) ºÄÊ±1ms optionId=10 turnNum=3 n=3 ¡ú play BE_207 ÊÖ4 ³¡1 Ä¿±ê=None:None/None
+[step 029] ok:my_turn turn=3 current_player=1 my_id=1 options_seq=11637 turn_seq=11310
+[step 030] plan_A action=play card=BE_207 box_hand=4 box_board=1 box_target=None:None turn=3 mine=True seq=11637 ver=45 hand=['TLC_451', 'CORE_SCH_713', 'CATA_210', 'BE_207', 'BE_728', 'TIME_026'] board=['BE_085t', 'BE_085t']
+[step 031] box_rec_raw n=3 raw={"plans": [{"plan": "A", "action": "play", "hand_position": 4, "board_position": 1, "target": null, "target_position": null, "target_card_id": null, "card_name": "²»ÎÈ¶¨µÄÔ­ĞÍ»ú", "card_id": "BE_207", "ai_win_rate": 82, "mulligan_positions": null, "option_id": 10, "choice_id": -1}, {"plan": "B", "action": "play", "hand_position": 2, "board_position": 1, "target": null, "target_position": null, "target_card_id": null, "card_name": "Òì½ÌµÍ½×ÄÁÊ¦", "card_id": "CORE_SCH_713", "ai_win_rate": 82, "mulligan_positions": null, "option_id": 10, "choice_id": -1}, {"plan": "C", "action": "play", "hand_position": 3, "board_position": 1, "target": null, "target_position": null, "target_card_id": null, "card_name": "Äº¹âÁúÂÑ", "card_id": "CATA_210", "ai_win_rate": 82, "mulligan_positions": null, "option_id": 10, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "play_minion", "card": {"ZONE_POSITION": 4, "cardId": "BE_207", "cardName": "²»ÎÈ¶¨µÄÔ­ĞÍ»ú"}, "position": 1, "using_disguised": 0}, {"actionName": "play_minion", "card": {"ZONE_POSITION": 2, "cardId": "CORE_SCH_713", "cardName": "Òì½ÌµÍ½×ÄÁÊ¦"}, "position": 1, "using_disguised": 0}, {"actionName": "play_minion", "card": {"ZONE_POSITION": 3, "cardId": "CATA_210", "cardName": "Äº¹âÁúÂÑ"}, "position": 1, "using_disguised": 0}], "error": "", "optionId": 10, "status": 2, "turnNum": 3}, "timestamp": "2026-10-27T09:56:05.382432"}
+[step 032] ok:hand_slot_bound slot=4 size=6 card=BE_207
+[step 033] ok:hand_size hand_size=6 slot=4
+[step 034] ok:card_usable card=BE_207 eid=16 error=NONE slot=4 src=option_map
+[engine]   ÊÖÅÆ[6] 1:TLC_451 2:CORE_SCH_713 3:CATA_210 4:BE_207 5:BE_728 6:TIME_026 | ºĞ×Ó²Û=4 cardId=BE_207 -> ÓÃ²Û 4/6
+[step 035] ok:board_index index=0 size=2
+[engine]   ³¡Ãæ[2] ºĞ×ÓÉÏ³¡Î»=1 -> Âäµã²Û 1
+[step 036] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [930, 936], 'screen': [944, 985]}, {'tag': 'mlc_end', 'client': [886, 541], 'screen': [900, 590]}] resolved={'hand_slot': 4, 'hand_size': 6, 'board_index': 0, 'board_size': 2}
+[step 037] ok:action_effect action=play card=BE_207 evidence=PLAY¿é before=11637 after=11817 clicks=[{'tag': 'mlc_start', 'client': [930, 936], 'screen': [944, 985]}, {'tag': 'mlc_end', 'client': [886, 541], 'screen': [900, 590]}]
+[engine] ¶¯×÷Ç°ÖØ²é(Ö÷Ñ­»·) ºÄÊ±1ms optionId=17 turnNum=4 n=1 ¡ú play CATA_210 ÊÖ3 ³¡4 Ä¿±ê=None:None/None
+[step 038] ok:my_turn turn=3 current_player=1 my_id=1 options_seq=11817 turn_seq=11310
+[step 039] plan_A action=play card=CATA_210 box_hand=3 box_board=4 box_target=None:None turn=3 mine=True seq=11817 ver=47 hand=['TLC_451', 'CORE_SCH_713', 'CATA_210', 'BE_728', 'TIME_026'] board=['BE_207', 'BE_085t', 'BE_085t']
+[step 040] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "play", "hand_position": 3, "board_position": 4, "target": null, "target_position": null, "target_card_id": null, "card_name": "Äº¹âÁúÂÑ", "card_id": "CATA_210", "ai_win_rate": 82, "mulligan_positions": null, "option_id": 17, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "play_minion", "card": {"ZONE_POSITION": 3, "cardId": "CATA_210", "cardName": "Äº¹âÁúÂÑ"}, "position": 4, "using_disguised": 0}], "error": "", "optionId": 17, "status": 2, "turnNum": 4}, "timestamp": "2026-10-27T09:56:18.513780"}
+[step 041] ok:hand_slot_bound slot=3 size=5 card=CATA_210
+[step 042] ok:hand_size hand_size=5 slot=3
+[step 043] ok:card_usable card=CATA_210 eid=30 error=NONE slot=3 src=option_map
+[engine]   ÊÖÅÆ[5] 1:TLC_451 2:CORE_SCH_713 3:CATA_210 4:BE_728 5:TIME_026 | ºĞ×Ó²Û=3 cardId=CATA_210 -> ÓÃ²Û 3/5
+[step 044] ok:board_index index=3 size=3
+[engine]   ³¡Ãæ[3] ºĞ×ÓÉÏ³¡Î»=4 -> Âäµã²Û 4
+[step 045] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [901, 923], 'screen': [915, 972]}, {'tag': 'mlc_end', 'client': [1206, 545], 'screen': [1220, 594]}] resolved={'hand_slot': 3, 'hand_size': 5, 'board_index': 3, 'board_size': 3}
+[step 046] ok:action_effect action=play card=CATA_210 evidence=PLAY¿é before=11817 after=11923 clicks=[{'tag': 'mlc_start', 'client': [901, 923], 'screen': [915, 972]}, {'tag': 'mlc_end', 'client': [1206, 545], 'screen': [1220, 594]}]
+[engine] ¶¯×÷Ç°ÖØ²é(Ö÷Ñ­»·) ºÄÊ±0ms optionId=18 turnNum=4 n=1 ¡ú play TIME_026 ÊÖ4 ³¡None Ä¿±ê=None:None/None
+[step 047] ok:my_turn turn=3 current_player=1 my_id=1 options_seq=11923 turn_seq=11310
+[step 048] plan_A action=play card=TIME_026 box_hand=4 box_board=None box_target=None:None turn=3 mine=True seq=11923 ver=49 hand=['TLC_451', 'CORE_SCH_713', 'BE_728', 'TIME_026'] board=['BE_207', 'BE_085t', 'BE_085t', 'CATA_210']
+[step 049] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "play", "hand_position": 4, "board_position": null, "target": null, "target_position": null, "target_card_id": null, "card_name": "ĞøÁ¬ìØÄÜ", "card_id": "TIME_026", "ai_win_rate": 82, "mulligan_positions": null, "option_id": 18, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "play_special", "card": {"ZONE_POSITION": 4, "cardId": "TIME_026", "cardName": "ĞøÁ¬ìØÄÜ"}, "using_disguised": 0}], "error": "", "optionId": 18, "status": 2, "turnNum": 4}, "timestamp": "2026-10-27T09:56:36.992530"}
+[run] ¶Ô¾Ö»¹Ã»½áÊø£¬½Å±¾ÍË³ö£¬**²»×Ô¶¯ÈÏÊä**£¨ÒªÈÏÊäÇë¼Ó --concede£©
+[rec] Êó±êÊÂ¼şÒÑÂäÅÌ: test\v1\mouse.jsonl
+å†™å…¥ test\v1\powerlog_story.mdï¼ˆ54 ä¸ªäº‹ä»¶ï¼Œ3676 è¡Œï¼‰
+[rec] Èı·İ²úÎïÔÚ <REPO>\test\v1
+=== ÊÕ¹¤£º1 ¾Ö£¬Í³¼Æ {'turns': 0, 'plans': 7, 'acts': 6, 'empty': 1, 'errors': 0, 'swallowed': 0, 'stale': 0} ===

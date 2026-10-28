@@ -1,0 +1,8 @@
+[nav] go_tournament: mode=TOURNAMENT 第153次 seq_done=True (剩 38s)
+[nav] go_tournament: mode=TOURNAMENT 第161次 seq_done=True (剩 29s)
+[nav] go_tournament: mode=TOURNAMENT 第169次 seq_done=True (剩 20s)
+[nav] go_tournament: mode=TOURNAMENT 第177次 seq_done=True (剩 11s)
+[nav] go_tournament: mode=TOURNAMENT 第185次 seq_done=True (剩 2s)
+[nav] 超时
+[run] 进入对战失败
+=== 收工：1 局，统计 {'turns': 7, 'plans': 48, 'acts': 47, 'empty': 19, 'errors': 1, 'swallowed': 16, 'stale': 3} ===

@@ -1,0 +1,62 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      # fetch-depth 0：diff 覆盖率要和 origin/<base> 比，浅克隆没有历史
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # 依赖只有一份清单：requirements-dev.txt（pyyaml 是台账门禁要的，
+      # pillow/pywin32 是鼠标与截图要的；曾漏装 pyyaml 导致 bug_index --check exit 2）
+      - name: 装依赖
+        run: python -m pip install --quiet -r requirements-dev.txt
+
+      - name: lint（ruff）
+        env:
+          PYTHONIOENCODING: utf-8
+        run: python -X utf8 -m ruff check src run.py scripts tests
+
+      # 一份清单：scripts/run_all_tests.py（hooks / CI / coverage 共用它）
+      - name: 不需要真机的全部测试
+        env:
+          PYTHONIOENCODING: utf-8
+        run: python -X utf8 scripts/run_all_tests.py
+
+      - name: 标准 pytest 也要能跑（防止只剩自建 runner 能过）
+        env:
+          PYTHONIOENCODING: utf-8
+        run: python -X utf8 -m pytest
+
+      - name: 文档聚合一致（生成物别手改）
+        env:
+          PYTHONIOENCODING: utf-8
+        run: python -X utf8 scripts/build_docs.py --check
+
+      - name: 死链检查
+        env:
+          PYTHONIOENCODING: utf-8
+        run: python -X utf8 scripts/check_links.py
+
+      # 覆盖率地板 37：实测基线 38（2026-10-27，12 个测试）。只许涨不许跌。
+      - name: 覆盖率不低于基线
+        env:
+          PYTHONIOENCODING: utf-8
+        run: |
+          python -X utf8 scripts/coverage_report.py --min 42 --diff origin/${{ github.base_ref || 'master' }} --diff-min 70
+
+      - name: 台账一致性（失败原因单独可见）
+        if: always()
+        env:
+          PYTHONIOENCODING: utf-8
+        run: python -X utf8 scripts/bug_index.py --check

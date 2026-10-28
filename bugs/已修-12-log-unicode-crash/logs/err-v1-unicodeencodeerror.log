@@ -1,0 +1,12 @@
+[bridge] 桥接已挂载 HSAng
+Traceback (most recent call last):
+  File "<REPO>\run.py", line 308, in main
+    result = eng.play_match(timeout=max(60.0, end_by - time.time()))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<REPO>\src\hspy\engine.py", line 330, in play_match
+    self._execute(plan, st, resolved)
+  File "<REPO>\src\hspy\engine.py", line 484, in _execute
+    self._do_play(plan, st, resolved)
+  File "<REPO>\src\hspy\engine.py", line 600, in _do_play
+    print(f"[engine]   \u26a0 盒子槽 {box_pos} 我们快照里是 {ours}，"
+UnicodeEncodeError: 'gbk' codec can't encode character '\u26a0' in position 11: illegal multibyte sequence

@@ -1,0 +1,19 @@
+# hs-py 运行配置（复制成 config.toml 再改；config.toml 不进 git）
+#
+# 对应作者 hs-script 的 script.ini：
+#   runMode  -> run_mode（作者 RunModeEnum：casual/standard/wild）
+#   deckPos  -> deck_pos（作者 CHOOSE_DECK_POS，1 基）
+# 作者 TournamentModeStrategy.selectDeck() 是 lClickDeckPos(3)，所以默认点 3 次。
+
+[script]
+run_mode = "casual"        # 休闲（想打标准/狂野就改这里，但注意那是排名模式）
+deck_pos = 1               # 一号位卡组
+deck_click_count = 3       # 作者 lClickDeckPos(3)
+match_timeout = 300.0      # 匹配超时(秒)，超了取消匹配重连再来
+seconds = 900.0            # 单局最多跑多久(秒)
+# 拟人思考缩放：快攻 0.2~0.4（长考反而像脚本、还会烧绳）；控制/组合技可接近 1.0
+think_scale = 0.3
+
+# 盒子推荐桥（不写就用与 hs-py 同级的 script-main/recommendation_server.py）
+# bridge_script = "<SCRIPT_MAIN>/recommendation_server.py"
+# bridge_cwd = "<SCRIPT_MAIN>"

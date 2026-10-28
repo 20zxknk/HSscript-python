@@ -1,0 +1,28 @@
+D 13:45:03.7570820 PowerTaskList.DebugPrintPower() - BLOCK_START BlockType=POWER Entity=[entityName=灾毁迅疾幼龙 id=84 zone=PLAY zonePos=1 cardId=TIME_029 player=2] EffectCardId=System.Collections.Generic.List`1[System.String] EffectIndex=0 Target=0 SubOption=-1 
+D 13:45:03.7570820 PowerTaskList.DebugPrintPower() -     SHOW_ENTITY - Updating Entity=[entityName=时空撕裂 id=123 zone=DECK zonePos=0 cardId= player=2] CardID=TIME_025t
+D 13:45:03.7570820 PowerTaskList.DebugPrintPower() -         tag=CONTROLLER value=2
+D 13:45:03.7570820 PowerTaskList.DebugPrintPower() -         tag=CARDTYPE value=SPELL
+D 13:45:03.7570820 PowerTaskList.DebugPrintPower() -         tag=ZONE value=SETASIDE
+D 13:45:03.7570820 PowerTaskList.DebugPrintPower() -         tag=ENTITY_ID value=123
+D 13:45:03.7570820 PowerTaskList.DebugPrintPower() -         tag=CLASS value=WARLOCK
+D 13:45:03.7570820 PowerTaskList.DebugPrintPower() -         tag=CREATOR value=65
+D 13:45:03.7570820 PowerTaskList.DebugPrintPower() -         tag=349 value=1
+D 13:45:03.7570820 PowerTaskList.DebugPrintPower() -         tag=DISPLAYED_CREATOR value=65
+D 13:45:03.7570820 PowerTaskList.DebugPrintPower() -         tag=REVEALED value=0
+D 13:45:03.7570820 PowerTaskList.DebugPrintPower() -         tag=1037 value=2
+D 13:45:03.7570820 PowerTaskList.DebugPrintPower() -         tag=1043 value=1
+D 13:45:03.7570820 PowerTaskList.DebugPrintPower() -         tag=1068 value=0
+D 13:45:03.7570820 PowerTaskList.DebugPrintPower() -         tag=CASTS_WHEN_DRAWN value=1
+D 13:45:03.7570820 PowerTaskList.DebugPrintPower() -         tag=CREATOR_DBID value=120484
+D 13:45:03.7570820 PowerTaskList.DebugPrintPower() -         tag=1380 value=1
+D 13:45:03.7570820 PowerTaskList.DebugPrintPower() -         tag=SPAWN_TIME_COUNT value=1
+D 13:45:03.7570820 PowerTaskList.DebugPrintPower() -         tag=4901 value=0
+D 13:45:03.7570820 PowerTaskList.DebugPrintPower() -     FULL_ENTITY - Updating [entityName=时空撕裂 id=141 zone=SETASIDE zonePos=0 cardId=TIME_025t player=2] CardID=TIME_025t
+D 13:45:03.7570820 PowerTaskList.DebugPrintPower() -         tag=CONTROLLER value=2
+D 13:45:03.7570820 PowerTaskList.DebugPrintPower() -         tag=CARDTYPE value=SPELL
+D 13:45:03.7570820 PowerTaskList.DebugPrintPower() -         tag=ZONE value=SETASIDE
+D 13:45:03.7570820 PowerTaskList.DebugPrintPower() -         tag=ENTITY_ID value=141
+D 13:45:03.7570820 PowerTaskList.DebugPrintPower() -         tag=CLASS value=WARLOCK
+D 13:45:03.7570820 PowerTaskList.DebugPrintPower() -         tag=CREATOR value=84
+D 13:45:03.7570820 PowerTaskList.DebugPrintPower() -         tag=349 value=1
+D 13:45:03.7570820 PowerTaskList.DebugPrintPower() -         tag=1037 value=2

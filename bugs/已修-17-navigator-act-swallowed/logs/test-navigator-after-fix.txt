@@ -1,0 +1,7 @@
+﻿OK   click() 走的是注入的 act
+[mouse] 行为克隆：<REPO>\data\move_templates.json
+OK   没注入时能造出默认动作层
+OK   注入的 act 不会被覆盖
+OK   mode() 读的是 sync.pump().mode
+
+全部通过（4 组 Navigator 契约用例）

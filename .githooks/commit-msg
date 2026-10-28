@@ -1,0 +1,60 @@
+#!/bin/sh
+# 提交信息门禁：提交信息必须与**实际改动的文件**对得上。
+#   ① 动了 bugs/**        → 消息里的 BUG 编号集合必须等于实际改动的编号集合
+#   ② 动了 src/** 或 run.py → 必须带 (BUG NN)，且该编号在 bugs/ 下真有目录
+#   ③ 动了 tests/**       → 正文必须有「覆盖：」一行
+#   ④ fix*/hotfix*        → 正文必须有 现象 / 触发条件 / 日志（沿用旧规则）
+# 逃生口：git commit --no-verify
+msgfile="$1"
+head=$(head -n 1 "$msgfile")
+all=$(cat "$msgfile")
+
+fail() { echo "X $1" >&2; exit 1; }
+
+changed=$(git -c core.quotePath=false diff --cached --name-only)
+
+nums_in_msg=$(echo "$all" | grep -oE 'BUG[ -]?[0-9]{2}' | grep -oE '[0-9]{2}' | sort -u)
+nums_bugs=$(echo "$changed" | grep -E '^bugs/' | sed -E 's#^bugs/[^-]+-([0-9]{2})-.*#\1#' | grep -E '^[0-9]{2}$' | sort -u)
+
+# ① 动了 bugs/ -> 编号集合必须一致
+if [ -n "$nums_bugs" ]; then
+    if [ "$nums_in_msg" != "$nums_bugs" ]; then
+        echo "  实际改动的 BUG：$(echo $nums_bugs)" >&2
+        echo "  提交信息里的 BUG：$(echo $nums_in_msg)" >&2
+        fail "改了 bugs/ 的提交，消息里的 BUG 编号必须与实际改动完全一致（不漏写、不多写）"
+    fi
+fi
+
+# ② 动了 src/ 或 run.py -> 修复类必须有 (BUG NN)；feat 类可以不提编号
+#    （功能不是修 bug，强行挂一个编号只会让台账变假）
+if echo "$changed" | grep -qE '^(src/|run\.py)'; then
+    case "$head" in
+      fix*|hotfix*|fixup*|revert*)
+        [ -n "$nums_in_msg" ] || fail "修复类改了 src/ 或 run.py，提交信息必须带 (BUG NN)"
+        ;;
+    esac
+fi
+
+# ③ 动了 tests/ -> 必须有「覆盖：」一行
+if echo "$changed" | grep -qE '^tests/'; then
+    echo "$all" | grep -q '覆盖：' || fail "改了 tests/，正文必须有一行「覆盖：…」说明这组测试防什么"
+fi
+
+# 提到的 BUG 编号必须真有目录（防编造）
+for n in $nums_in_msg; do
+    # 本次改到的编号直接放行：删除/合并目录时，那个编号当然已经不存在了
+    echo "$nums_bugs" | grep -qx "$n" && continue
+    ls -d bugs/*-"$n"-* >/dev/null 2>&1 || fail "提交信息里的 BUG $n 在 bugs/ 下没有对应目录"
+done
+
+# ④ fix*/hotfix* 仍要求三段
+case "$head" in
+  fix*|hotfix*)
+    [ -n "$nums_in_msg" ] || fail "修复类提交标题必须带 (BUG NN)"
+    for k in 现象 触发条件 日志; do
+        echo "$all" | grep -q "$k" || fail "修复类提交正文缺少「$k」一节"
+    done
+    ;;
+esac
+
+exit 0

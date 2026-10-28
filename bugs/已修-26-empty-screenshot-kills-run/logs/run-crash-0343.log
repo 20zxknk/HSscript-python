@@ -1,0 +1,28 @@
+=== 第 30 局结果 === finished {'turns': 94, 'plans': 1289, 'acts': 1283, 'empty': 142, 'errors': 6, 'swallowed': 451, 'stale': 54}
+Traceback (most recent call last):
+  File "<PYTHON>\Lib\site-packages\PIL\ImageFile.py", line 663, in _save
+    fh = fp.fileno()
+         ^^^^^^^^^
+AttributeError: '_idat' object has no attribute 'fileno'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "<REPO>\run.py", line 351, in main
+    win.capture(eng.window.hwnd, f".captures/run_game{games}.png")
+  File "<REPO>\src\hspy\win.py", line 236, in capture
+    img.save(out)
+  File "<PYTHON>\Lib\site-packages\PIL\Image.py", line 2713, in save
+    save_handler(self, fp, filename)
+  File "<PYTHON>\Lib\site-packages\PIL\PngImagePlugin.py", line 1507, in
+ _save
+    ImageFile._save(
+  File "<PYTHON>\Lib\site-packages\PIL\ImageFile.py", line 667, in _save
+    _encode_tile(im, fp, tile, bufsize, None, exc)
+  File "<PYTHON>\Lib\site-packages\PIL\ImageFile.py", line 685, in _enco
+de_tile
+    encoder.setimage(im.im, extents)
+ValueError: cannot write empty image
+[run] 对局还没结束，脚本退出，**不自动认输**（要认输请加 --concede）
+[rec] 鼠标事件已落盘: test\live-hang8\mouse.jsonl
+写入 test\live-hang8\powerlog_story.md（4946 个事件，398796 行）
+[rec] 三份产物在 <REPO>\test\live-hang8
+=== 收工：30 局，统计 {'turns': 94, 'plans': 1289, 'acts': 1283, 'empty': 142, 'errors': 6, 'swallowed': 451, 'stale': 54} ===

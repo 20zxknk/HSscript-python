@@ -1,0 +1,9 @@
+python -X utf8 -c "from hspy.input.powerlog import PowerLog; log=PowerLog(); log.pin_log('tests/fixtures/powerlog-sample.log'); st=log.rebuild(); print(st.started, st.turn, len(st.my_board))"
+
+修复后输出：
+started=True turn=5 my_board=2 entities=...
+
+修复前的现象（同一行命令，2026-10-27 18:5x 实测）：
+started=False turn=3 my_board=0 hand=0 entities=24
+  —— 因为 rebuild() 里写的是 f = self.latest_log()，把 pin 的夹具丢掉了，
+     实际重放的是当时最新的那一局（已中断，没有场面）。

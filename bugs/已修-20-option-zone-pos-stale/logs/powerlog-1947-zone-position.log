@@ -1,0 +1,47 @@
+D 19:47:17.5196451 GameState.DebugPrintOptions() - id=10
+D 19:47:17.5196451 GameState.DebugPrintOptions() -   option 0 type=END_TURN mainEntity= error=INVALID errorParam=
+D 19:47:17.5196451 GameState.DebugPrintOptions() -   option 1 type=POWER mainEntity=[entityName=暮光龙卵 id=45 zone=HAND zonePos=2 cardId=CATA_210 player=2] error=NONE errorParam=
+D 19:47:17.5196451 GameState.DebugPrintOptions() -   option 2 type=POWER mainEntity=[entityName=幸运币 id=83 zone=HAND zonePos=4 cardId=GAME_005 player=2] error=NONE errorParam=
+D 19:47:17.5196451 GameState.DebugPrintOptions() -   option 3 type=POWER mainEntity=[entityName=喉魔异教徒 id=39 zone=HAND zonePos=1 cardId=BE_729 player=2] error=NONE errorParam=
+D 19:47:17.5196451 GameState.DebugPrintOptions() -   option 4 type=POWER mainEntity=[entityName=咒怨之墓 id=55 zone=HAND zonePos=3 cardId=TLC_451 player=2] error=NONE errorParam=
+D 19:47:17.5196451 GameState.DebugPrintOptions() -   option 5 type=POWER mainEntity=[entityName=续连熵能 id=61 zone=HAND zonePos=5 cardId=TIME_026 player=2] error=NONE errorParam=
+D 19:47:17.5196451 GameState.DebugPrintOptions() -   option 6 type=POWER mainEntity=[entityName=UNKNOWN ENTITY [cardType=INVALID] id=56 zone=DECK zonePos=0 cardId= player=2] error=NONE errorParam=
+D 19:47:17.5196451 GameState.DebugPrintOptions() -   option 7 type=POWER mainEntity=[entityName=生命分流 id=72 zone=PLAY zonePos=0 cardId=HERO_07bp player=2] error=NONE errorParam=
+D 19:47:17.5196451 GameState.DebugPrintOptions() -   option 8 type=POWER mainEntity=[entityName=暮光时空跃迁者 id=46 zone=PLAY zonePos=1 cardId=TIME_025 player=2] error=NONE errorParam=
+D 19:47:17.5196451 GameState.DebugPrintOptions() -     target 0 entity=[entityName=梦境卫士 id=13 zone=PLAY zonePos=1 cardId=EDR_256 player=1] error=NONE errorParam=
+D 19:47:17.5196451 GameState.DebugPrintOptions() -     target 1 entity=[entityName=古尔丹 id=71 zone=PLAY zonePos=0 cardId=HERO_07 player=2] error=REQ_ENEMY_TARGET errorParam=
+D 19:47:17.5196451 GameState.DebugPrintOptions() -     target 2 entity=[entityName=暮光时空跃迁者 id=46 zone=PLAY zonePos=1 cardId=TIME_025 player=2] error=REQ_ENEMY_TARGET errorParam=
+D 19:47:17.5196451 GameState.DebugPrintOptions() -     target 3 entity=[entityName=无面狂热者 id=106 zone=PLAY zonePos=2 cardId=BE_013t5 player=2] error=REQ_ENEMY_TARGET errorParam=
+D 19:47:17.5196451 GameState.DebugPrintOptions() -     target 4 entity=[entityName=无面狂热者 id=107 zone=PLAY zonePos=3 cardId=BE_013t5 player=2] error=REQ_ENEMY_TARGET errorParam=
+D 19:47:17.5196451 GameState.DebugPrintOptions() -     target 5 entity=[entityName=乌瑟尔·光明使者 id=69 zone=PLAY zonePos=0 cardId=HERO_04 player=1] error=REQ_TARGET_TAUNTER errorParam=
+D 19:47:17.5196451 GameState.DebugPrintOptions() -   option 9 type=POWER mainEntity=[entityName=乌瑟尔·光明使者 id=69 zone=PLAY zonePos=0 cardId=HERO_04 player=1] error=REQ_YOUR_TURN errorParam=
+D 19:47:17.5196451 GameState.DebugPrintOptions() -   option 10 type=POWER mainEntity=[entityName=援军 id=70 zone=PLAY zonePos=0 cardId=HERO_04bp player=1] error=REQ_YOUR_TURN errorParam=
+D 19:47:17.5196451 GameState.DebugPrintOptions() -   option 11 type=POWER mainEntity=[entityName=古尔丹 id=71 zone=PLAY zonePos=0 cardId=HERO_07 player=2] error=REQ_ATTACK_GREATER_THAN_0 errorParam=
+D 19:47:17.5196451 GameState.DebugPrintOptions() -   option 12 type=POWER mainEntity=[entityName=梦境卫士 id=13 zone=PLAY zonePos=1 cardId=EDR_256 player=1] error=REQ_YOUR_TURN errorParam=
+D 19:47:17.5196451 GameState.DebugPrintOptions() -   option 13 type=POWER mainEntity=[entityName=无面狂热者 id=106 zone=PLAY zonePos=2 cardId=BE_013t5 player=2] error=REQ_NOT_MINION_JUST_PLAYED errorParam=
+D 19:47:17.5196451 GameState.DebugPrintOptions() -   option 14 type=POWER mainEntity=[entityName=无面狂热者 id=107 zone=PLAY zonePos=3 cardId=BE_013t5 player=2] error=REQ_NOT_MINION_JUST_PLAYED errorParam=
+D 19:47:28.4939875 GameState.DebugPrintPower() -     TAG_CHANGE Entity=[entityName=续连熵能 id=61 zone=HAND zonePos=5 cardId=TIME_026 player=2] tag=ZONE_POSITION value=4 
+D 19:47:28.5000128 GameState.DebugPrintOptions() - id=11
+D 19:47:28.5000128 GameState.DebugPrintOptions() -   option 0 type=END_TURN mainEntity= error=INVALID errorParam=
+D 19:47:28.5000128 GameState.DebugPrintOptions() -   option 1 type=POWER mainEntity=[entityName=幸运币 id=83 zone=HAND zonePos=4 cardId=GAME_005 player=2] error=NONE errorParam=
+D 19:47:28.5000128 GameState.DebugPrintOptions() -   option 2 type=POWER mainEntity=[entityName=咒怨之墓 id=55 zone=HAND zonePos=3 cardId=TLC_451 player=2] error=NONE errorParam=
+D 19:47:28.5000128 GameState.DebugPrintOptions() -   option 3 type=POWER mainEntity=[entityName=续连熵能 id=61 zone=HAND zonePos=5 cardId=TIME_026 player=2] error=NONE errorParam=
+D 19:47:28.5000128 GameState.DebugPrintOptions() -   option 4 type=POWER mainEntity=[entityName=咒怨之墓 id=56 zone=HAND zonePos=6 cardId=TLC_451 player=2] error=NONE errorParam=
+D 19:47:28.5000128 GameState.DebugPrintOptions() -   option 5 type=POWER mainEntity=[entityName=生命分流 id=72 zone=PLAY zonePos=0 cardId=HERO_07bp player=2] error=NONE errorParam=
+D 19:47:28.5000128 GameState.DebugPrintOptions() -   option 6 type=POWER mainEntity=[entityName=暮光时空跃迁者 id=46 zone=PLAY zonePos=1 cardId=TIME_025 player=2] error=NONE errorParam=
+D 19:47:28.5000128 GameState.DebugPrintOptions() -     target 0 entity=[entityName=梦境卫士 id=13 zone=PLAY zonePos=1 cardId=EDR_256 player=1] error=NONE errorParam=
+D 19:47:28.5000128 GameState.DebugPrintOptions() -     target 1 entity=[entityName=古尔丹 id=71 zone=PLAY zonePos=0 cardId=HERO_07 player=2] error=REQ_ENEMY_TARGET errorParam=
+D 19:47:28.5000128 GameState.DebugPrintOptions() -     target 2 entity=[entityName=暮光时空跃迁者 id=46 zone=PLAY zonePos=1 cardId=TIME_025 player=2] error=REQ_ENEMY_TARGET errorParam=
+D 19:47:28.5000128 GameState.DebugPrintOptions() -     target 3 entity=[entityName=无面狂热者 id=106 zone=PLAY zonePos=2 cardId=BE_013t5 player=2] error=REQ_ENEMY_TARGET errorParam=
+D 19:47:28.5000128 GameState.DebugPrintOptions() -     target 4 entity=[entityName=无面狂热者 id=107 zone=PLAY zonePos=3 cardId=BE_013t5 player=2] error=REQ_ENEMY_TARGET errorParam=
+D 19:47:28.5000128 GameState.DebugPrintOptions() -     target 5 entity=[entityName=暮光龙卵 id=45 zone=HAND zonePos=2 cardId=CATA_210 player=2] error=REQ_ENEMY_TARGET errorParam=
+D 19:47:28.5000128 GameState.DebugPrintOptions() -     target 6 entity=[entityName=乌瑟尔·光明使者 id=69 zone=PLAY zonePos=0 cardId=HERO_04 player=1] error=REQ_TARGET_TAUNTER errorParam=
+D 19:47:28.5000128 GameState.DebugPrintOptions() -   option 7 type=POWER mainEntity=[entityName=喉魔异教徒 id=39 zone=HAND zonePos=1 cardId=BE_729 player=2] error=REQ_ENOUGH_MANA errorParam=
+D 19:47:28.5000128 GameState.DebugPrintOptions() -   option 8 type=POWER mainEntity=[entityName=乌瑟尔·光明使者 id=69 zone=PLAY zonePos=0 cardId=HERO_04 player=1] error=REQ_YOUR_TURN errorParam=
+D 19:47:28.5000128 GameState.DebugPrintOptions() -   option 9 type=POWER mainEntity=[entityName=援军 id=70 zone=PLAY zonePos=0 cardId=HERO_04bp player=1] error=REQ_YOUR_TURN errorParam=
+D 19:47:28.5000128 GameState.DebugPrintOptions() -   option 10 type=POWER mainEntity=[entityName=古尔丹 id=71 zone=PLAY zonePos=0 cardId=HERO_07 player=2] error=REQ_ATTACK_GREATER_THAN_0 errorParam=
+D 19:47:28.5000128 GameState.DebugPrintOptions() -   option 11 type=POWER mainEntity=[entityName=梦境卫士 id=13 zone=PLAY zonePos=1 cardId=EDR_256 player=1] error=REQ_YOUR_TURN errorParam=
+D 19:47:28.5000128 GameState.DebugPrintOptions() -   option 12 type=POWER mainEntity=[entityName=无面狂热者 id=106 zone=PLAY zonePos=2 cardId=BE_013t5 player=2] error=REQ_NOT_MINION_JUST_PLAYED errorParam=
+D 19:47:28.5000128 GameState.DebugPrintOptions() -   option 13 type=POWER mainEntity=[entityName=无面狂热者 id=107 zone=PLAY zonePos=3 cardId=BE_013t5 player=2] error=REQ_NOT_MINION_JUST_PLAYED errorParam=
+D 19:47:28.5000128 GameState.DebugPrintOptions() -   option 14 type=POWER mainEntity=[entityName=暮光龙卵 id=45 zone=HAND zonePos=2 cardId=CATA_210 player=2] error=REQ_ATTACK_GREATER_THAN_0 errorParam=
+D 19:47:29.8160577 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=[entityName=续连熵能 id=61 zone=HAND zonePos=5 cardId=TIME_026 player=2] tag=ZONE_POSITION value=4 

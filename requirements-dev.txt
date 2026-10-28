@@ -1,0 +1,7 @@
+pywin32>=306
+pillow>=10
+pyyaml>=6
+pytest>=8
+coverage>=7
+diff-cover>=9
+ruff>=0.6

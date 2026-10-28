@@ -1,0 +1,13 @@
+[engine] 等待中 mode=GAMEPLAY turn=7 cur=1 me=2 hand=1 board=3
+[engine] 等待中 mode=GAMEPLAY turn=7 cur=1 me=2 hand=1 board=3
+[engine] 等待中 mode=GAMEPLAY turn=7 cur=1 me=2 hand=1 board=2
+[engine] 等待中 mode=GAMEPLAY turn=7 cur=2 me=2 hand=2 board=2
+[engine] 等待中 mode=GAMEPLAY turn=7 cur=2 me=2 hand=2 board=2
+[engine] 等待中 mode=GAMEPLAY turn=7 cur=2 me=2 hand=2 board=2
+[engine] 局面 30s 未动，继续轮询 turn=7 cur=2 me=2 hand=2 board=2
+[engine] 等待中 mode=GAMEPLAY turn=7 cur=2 me=2 hand=2 board=2
+[engine] 等待中 mode=GAMEPLAY turn=7 cur=2 me=2 hand=2 board=2
+[engine] 等待中 mode=GAMEPLAY turn=7 cur=2 me=2 hand=2 board=2
+[engine] 局面 60s 未动，继续轮询 turn=7 cur=2 me=2 hand=2 board=2
+[engine] 等待中 mode=GAMEPLAY turn=7 cur=2 me=2 hand=2 board=2
+[engine] 等待中 mode=GAMEPLAY turn=7 cur=2 me=2 hand=2 board=2

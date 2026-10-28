@@ -1,0 +1,12 @@
+#!/bin/sh
+# 提交前门禁（毫秒级）：台账 + 文档聚合 + 死链。
+# 规则不写文档，全部由脚本执行。
+cd "$(git rev-parse --show-toplevel)" || exit 1
+python -X utf8 -m ruff check src run.py scripts tests || exit 1
+python -X utf8 scripts/check_adr.py || exit 1
+python -X utf8 scripts/verify_type_equiv.py --check || exit 1
+python -X utf8 scripts/bug_index.py --check || exit 1
+python -X utf8 tests/test_bug_book.py || exit 1
+python -X utf8 scripts/build_layout.py --check || exit 1
+python -X utf8 scripts/build_docs.py --check || exit 1
+python -X utf8 scripts/check_links.py || exit 1

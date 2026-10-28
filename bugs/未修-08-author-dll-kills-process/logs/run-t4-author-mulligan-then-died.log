@@ -1,0 +1,30 @@
+=== 配置：模式=standard 卡组位=1(点3次) 匹配超时=120s 上限=600s 局数上限=1 ===
+=== 推荐桥：<SCRIPT_MAIN>\recommendation_server.py
+[run] 客户区 1905x982 比例=1.940
+[rec] 录制目录: <REPO>\test\t4
+[rec] 鼠标 LL 钩子: 已挂上
+[run] 动作日志: logs\actions-20261027_010205.jsonl
+[bridge] 握手期状态行: status=loading
+[run] 桥已提前挂载
+[run] 进对局前界面: mode=HUB
+=== 进对战（第 1 次, 模式=standard 卡组位=1, 当前段 0）===
+[nav] go_tournament: mode=HUB 第1次 seq_done=False (剩 240s)
+[nav] 点击切换模式按钮
+[nav] 切换至 standard 模式
+[nav] 模式校验 -> None
+[nav] 选择套牌：第 1 号位，点 3 次
+[nav] 开始匹配
+[nav] go_tournament: mode=TOURNAMENT 第9次 seq_done=True (剩 220s)
+[nav] 匹配中：点一次「确定」（可能弹了开赛错误）
+[nav] 匹配中：点一次「确定」（可能弹了开赛错误）
+[nav] 已进入对局
+[run] 新对局已开始（段 0->2，换牌中）
+[run] 日志已钉死: <HS_LOGS>\Hearthstone_2026_10_27_00_58_35\Power.log
+[run] 钉死后重建: 实体=72 my_id=2 turn=1 hand=3
+[rec] Power.log 叙述起点偏移: 96327
+[engine] 已就绪（窗口 + 桥 + 同步层）
+[engine] 动作前重查(换牌前探测) 耗时1ms optionId=-1 turnNum=1 n=1 → mulligan  手None 场None 目标=None:None/None
+[engine] 等开局动画 20s
+[engine] 起手 3 张（换牌面板 3 槽布局）
+[engine] 动作前重查(换牌前) 耗时0ms optionId=-1 turnNum=1 n=1 → mulligan  手None 场None 目标=None:None/None
+[engine] 按盒子换牌: 替换 [3]（起手 3 张）

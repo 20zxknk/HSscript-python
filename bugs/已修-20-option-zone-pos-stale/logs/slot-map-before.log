@@ -1,0 +1,3 @@
+hand_options(游戏声明槽位) = {4: 'GAME_005', 3: 'TLC_451', 5: 'TIME_026', 6: 'TLC_451', 1: 'BE_729', 2: 'CATA_210'}
+my_hand 列表             = ['BE_729', 'TLC_451', 'GAME_005', 'TIME_026', 'TLC_451']
+实体 zone/zonePos        = [(10, '', 'HAND', 4), (11, 'END_011', 'HAND', 1), (22, '', 'HAND', 2), (23, '', 'HAND', 3), (39, 'BE_729', 'HAND', 1), (55, 'TLC_451', 'HAND', 2), (56, 'TLC_451', 'HAND', 5), (61, 'TIME_026', 'HAND', 4), (80, '', 'HAND', 5), (82, '', 'HAND', 1), (83, 'GAME_005', 'HAND', 3), (95, 'TIME_025t', 'HAND', 0), (96, 'TIME_025t', 'HAND', 0)]

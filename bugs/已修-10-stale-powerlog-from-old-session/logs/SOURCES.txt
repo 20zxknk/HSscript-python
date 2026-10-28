@@ -1,0 +1,3 @@
+原始文件：
+  run-t1-nav-loop.log              test/t1/run.log
+  session-dir-listing.txt          <HS_LOGS>\Hearthstone_2026_10_27_00_49_53 的目录列表

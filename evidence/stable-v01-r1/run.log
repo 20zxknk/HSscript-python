@@ -1,0 +1,506 @@
+=== 配置：模式=standard 卡组位=1(点3次) 匹配超时=120s 上限=900s 局数上限=1 ===
+=== 推荐桥：<SCRIPT_MAIN>\recommendation_server.py
+[run] 客户区 1905x982 比例=1.940
+[rec] 录制目录: <REPO>\test\r1
+[rec] 鼠标 LL 钩子: 已挂上
+[run] 动作日志: logs\actions-20261027_133928.jsonl
+[bridge] 握手期状态行: status=loading
+[run] 桥已提前挂载
+[powerlog] tag=CARDTYPE 的 value 不是整数：'ENCHANTMENT'（累计 1）
+[powerlog] tag=CARDTYPE 的 value 不是整数：'ENCHANTMENT'（累计 2）
+[powerlog] tag=CARDTYPE 的 value 不是整数：'ENCHANTMENT'（累计 3）
+[powerlog] 按括号前进: eid=40 HAND -> PLAY（tag=NUM_TURNS_IN_PLAY value=2）
+[powerlog] 按括号前进: eid=52 HAND -> PLAY（tag=NUM_TURNS_IN_PLAY value=2）
+[powerlog] 按括号前进: eid=36 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=46 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=34 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=55 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=45 HAND -> PLAY（tag=1196 value=0）
+[run] 进对局前界面: mode=TOURNAMENT
+[run] 已在对战/卡组页，直接开始匹配（不回主界面）
+=== 进对战（第 1 次, 模式=standard 卡组位=1, 当前段 1）===
+[nav] go_tournament: mode=TOURNAMENT 第1次 seq_done=False (剩 240s)
+[nav] 点击切换模式按钮
+[nav] 切换至 standard 模式
+[nav] 模式校验 -> None
+[nav] 选择套牌：第 1 号位，点 3 次
+[nav] 开始匹配
+[nav] go_tournament: mode=TOURNAMENT 第9次 seq_done=True (剩 225s)
+[nav] 匹配中：点一次「确定」（可能弹了开赛错误）
+[nav] 匹配中：点一次「确定」（可能弹了开赛错误）
+[nav] 已进入对局
+[run] 新对局已开始（段 1->2，换牌中）
+[run] 日志已钉死: <HS_LOGS>\Hearthstone_2026_10_27_13_32_40\Power.log
+[powerlog] tag=CARDTYPE 的 value 不是整数：'ENCHANTMENT'（累计 1）
+[powerlog] tag=CARDTYPE 的 value 不是整数：'ENCHANTMENT'（累计 2）
+[powerlog] tag=CARDTYPE 的 value 不是整数：'ENCHANTMENT'（累计 3）
+[powerlog] 按括号前进: eid=40 HAND -> PLAY（tag=NUM_TURNS_IN_PLAY value=2）
+[powerlog] 按括号前进: eid=52 HAND -> PLAY（tag=NUM_TURNS_IN_PLAY value=2）
+[powerlog] 按括号前进: eid=36 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=46 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=34 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=55 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=45 HAND -> PLAY（tag=1196 value=0）
+[run] 钉死后重建: 实体=96 my_id=2 turn=0 hand=0
+[rec] Power.log 叙述起点偏移: 1085069
+[engine] 已就绪（窗口 + 桥 + 同步层）
+[engine] 动作前重查(换牌前探测) 耗时0ms optionId=-1 turnNum=1 n=1 → mulligan  手None 场None 目标=None:None/None
+[engine] 等开局动画 20s
+[engine] 起手张数读不到 -> 从日志头重建状态再读
+[powerlog] tag=CARDTYPE 的 value 不是整数：'ENCHANTMENT'（累计 1）
+[powerlog] tag=CARDTYPE 的 value 不是整数：'ENCHANTMENT'（累计 2）
+[powerlog] tag=CARDTYPE 的 value 不是整数：'ENCHANTMENT'（累计 3）
+[powerlog] 按括号前进: eid=40 HAND -> PLAY（tag=NUM_TURNS_IN_PLAY value=2）
+[powerlog] 按括号前进: eid=52 HAND -> PLAY（tag=NUM_TURNS_IN_PLAY value=2）
+[powerlog] 按括号前进: eid=36 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=46 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=34 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=55 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=45 HAND -> PLAY（tag=1196 value=0）
+[engine] 等起手张数… n=0 hand=0 hint=0
+[engine] 等起手张数… n=0 hand=0 hint=0
+[engine] 等起手张数… n=0 hand=0 hint=0
+[engine] 等起手张数… n=0 hand=0 hint=0
+[engine] 等起手张数… n=0 hand=0 hint=0
+[engine] 等起手张数… n=0 hand=0 hint=0
+[engine] 等起手张数… n=0 hand=0 hint=0
+[engine] 等起手张数… n=0 hand=0 hint=0
+[engine] 等起手张数… n=0 hand=0 hint=0
+[engine] 等起手张数… n=0 hand=0 hint=0
+[engine] 等起手张数… n=0 hand=0 hint=0
+[engine] 等起手张数… n=0 hand=0 hint=0
+[engine] 等起手张数… n=0 hand=0 hint=0
+[engine] 等起手张数… n=0 hand=0 hint=0
+[engine] 等起手张数… n=0 hand=0 hint=0
+[engine] 起手张数仍读不到（实体 zone=HAND 且有卡号的 0 个），这一轮不换牌、不点确认
+[run] 换牌完成
+[engine] 我的回合 turn=1（GameTURN=1）
+[engine] 动作前重查(主循环) 耗时1ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时0ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时1ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时0ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时1ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时0ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时1ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时0ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时0ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时1ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时0ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时0ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时0ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时0ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时1ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时0ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时1ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时2ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时0ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时0ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时0ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时0ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时5ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时0ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时0ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时0ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时0ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时1ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时0ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时0ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时0ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时0ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时0ms optionId=-1 turnNum=1 n=0 → 无方案
+[powerlog] 按括号落位: eid=66 DECK1 -> HAND1
+[powerlog] 按括号落位: eid=84 DECK2 -> HAND2
+[powerlog] 按括号落位: eid=89 DECK3 -> HAND3
+[engine] 动作前重查(主循环) 耗时0ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时0ms optionId=1 turnNum=1 n=1 → play CATA_210 手3 场1 目标=None:None/None
+[step 001] ok:my_turn turn=1 current_player=2 my_id=2 options_seq=9577 turn_seq=0
+[step 002] plan_A action=play card=CATA_210 box_hand=3 box_board=1 box_target=None:None turn=1 mine=True seq=9577 ver=8 hand=['BE_207', 'TIME_029', 'CATA_210', 'TIME_026'] board=[]
+[step 003] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "play", "hand_position": 3, "board_position": 1, "target": null, "target_position": null, "target_card_id": null, "card_name": "暮光龙卵", "card_id": "CATA_210", "ai_win_rate": null, "mulligan_positions": null, "option_id": 1, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "play_minion", "card": {"ZONE_POSITION": 3, "cardId": "CATA_210", "cardName": "暮光龙卵"}, "position": 1, "using_disguised": 0}], "error": "", "optionId": 1, "status": 2, "turnNum": 1}, "timestamp": "2026-10-27T13:41:04.286128"}
+[step 004] ok:hand_slot_bound slot=3 size=4 card=CATA_210
+[step 005] ok:hand_size hand_size=4 slot=3
+[step 006] ok:card_usable card=CATA_210 eid=89 error=NONE slot=3 src=option_map
+[engine]   手牌[4] 1:BE_207 2:TIME_029 3:CATA_210 4:TIME_026 | 盒子槽=3 cardId=CATA_210 -> 用槽 3/4
+[step 007] ok:board_index index=0 size=0
+[engine]   场面[0] 盒子上场位=1 -> 落点槽 1
+[step 008] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [971, 922], 'screen': [985, 971]}, {'tag': 'mlc_end', 'client': [1015, 540], 'screen': [1029, 589]}] resolved={'hand_slot': 3, 'hand_size': 4, 'board_index': 0, 'board_size': 0}
+[step 009] swallowed action=play card=CATA_210 evidence=牌还在手上 before=9577 after=9664 clicks=[{'tag': 'mlc_start', 'client': [971, 922], 'screen': [985, 971]}, {'tag': 'mlc_end', 'client': [1015, 540], 'screen': [1029, 589]}]
+[engine] 动作前重查(主循环) 耗时0ms optionId=1 turnNum=1 n=1 → play CATA_210 手3 场1 目标=None:None/None
+[step 010] ok:my_turn turn=1 current_player=2 my_id=2 options_seq=9577 turn_seq=0
+[step 011] plan_A action=play card=CATA_210 box_hand=3 box_board=1 box_target=None:None turn=1 mine=True seq=9664 ver=11 hand=['BE_207', 'TIME_029', 'CATA_210', 'TIME_026'] board=[]
+[step 012] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "play", "hand_position": 3, "board_position": 1, "target": null, "target_position": null, "target_card_id": null, "card_name": "暮光龙卵", "card_id": "CATA_210", "ai_win_rate": null, "mulligan_positions": null, "option_id": 1, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "play_minion", "card": {"ZONE_POSITION": 3, "cardId": "CATA_210", "cardName": "暮光龙卵"}, "position": 1, "using_disguised": 0}], "error": "", "optionId": 1, "status": 2, "turnNum": 1}, "timestamp": "2026-10-27T13:41:10.283443"}
+[step 013] ok:hand_slot_bound slot=3 size=4 card=CATA_210
+[step 014] ok:hand_size hand_size=4 slot=3
+[step 015] ok:card_usable card=CATA_210 eid=89 error=NONE slot=3 src=option_map
+[engine]   手牌[4] 1:BE_207 2:TIME_029 3:CATA_210 4:TIME_026 | 盒子槽=3 cardId=CATA_210 -> 用槽 3/4
+[step 016] ok:board_index index=0 size=0
+[engine]   场面[0] 盒子上场位=1 -> 落点槽 1
+[step 017] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [971, 922], 'screen': [985, 971]}, {'tag': 'mlc_end', 'client': [1015, 540], 'screen': [1029, 589]}] resolved={'hand_slot': 3, 'hand_size': 4, 'board_index': 0, 'board_size': 0}
+[step 018] ok:action_effect action=play card=CATA_210 evidence=PLAY块 before=9664 after=9704 clicks=[{'tag': 'mlc_start', 'client': [971, 922], 'screen': [985, 971]}, {'tag': 'mlc_end', 'client': [1015, 540], 'screen': [1029, 589]}]
+[engine] 动作前重查(主循环) 耗时1ms optionId=2 turnNum=1 n=1 → end  手None 场None 目标=None:None/None
+[step 019] ok:my_turn turn=1 current_player=2 my_id=2 options_seq=9704 turn_seq=0
+[step 020] plan_A action=end card=None box_hand=None box_board=None box_target=None:None turn=1 mine=True seq=9704 ver=13 hand=['BE_207', 'TIME_029', 'TIME_026'] board=['CATA_210']
+[step 021] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "end", "hand_position": null, "board_position": null, "target": null, "target_position": null, "target_card_id": null, "card_name": null, "card_id": null, "ai_win_rate": null, "mulligan_positions": null, "option_id": 2, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "end_turn"}], "error": "", "optionId": 2, "status": 2, "turnNum": 1}, "timestamp": "2026-10-27T13:41:13.895982"}
+[step 022] clicked n=1 clicks=[{'tag': 'lclick', 'client': [1496, 453], 'screen': [1510, 502]}] resolved={}
+[step 023] ok:action_effect action=end card=None evidence=回合已交出 before=9704 after=9940 clicks=[{'tag': 'lclick', 'client': [1496, 453], 'screen': [1510, 502]}]
+[engine] 等待中 mode=GAMEPLAY turn=1 cur=1 me=2 hand=3 board=1
+[engine] 等待中 mode=GAMEPLAY turn=1 cur=1 me=2 hand=3 board=1
+[engine] 等待中 mode=GAMEPLAY turn=1 cur=1 me=2 hand=3 board=1
+[engine] 等待中 mode=GAMEPLAY turn=1 cur=1 me=2 hand=3 board=1
+[engine] 等待中 mode=GAMEPLAY turn=1 cur=1 me=2 hand=3 board=1
+[engine] 我的回合 turn=2（GameTURN=3）
+[engine] 推荐已过期：盒子 turnNum=1 < 我方回合=2（GameEntity.TURN=3）→ 不执行，继续要新推荐
+[step 024] stale_rec box_turn=1 my_turn=2 game_turn=3 option_id=2 action=end card=None
+[engine] 动作前重查(主循环) 耗时1ms optionId=5 turnNum=2 n=1 → play TLC_451 手4 场None 目标=None:None/None
+[step 025] ok:my_turn turn=2 current_player=2 my_id=2 options_seq=10258 turn_seq=10071
+[step 026] plan_A action=play card=TLC_451 box_hand=4 box_board=None box_target=None:None turn=2 mine=True seq=10258 ver=21 hand=['BE_207', 'TIME_029', 'TIME_026', 'TLC_451'] board=['CATA_210']
+[step 027] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "play", "hand_position": 4, "board_position": null, "target": null, "target_position": null, "target_card_id": null, "card_name": "咒怨之墓", "card_id": "TLC_451", "ai_win_rate": 72, "mulligan_positions": null, "option_id": 5, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "play_special", "card": {"ZONE_POSITION": 4, "cardId": "TLC_451", "cardName": "咒怨之墓"}, "using_disguised": 0}], "error": "", "optionId": 5, "status": 2, "turnNum": 2}, "timestamp": "2026-10-27T13:41:57.768746"}
+[step 028] ok:hand_slot_bound slot=4 size=4 card=TLC_451
+[step 029] ok:hand_size hand_size=4 slot=4
+[step 030] ok:card_usable card=TLC_451 eid=70 error=NONE slot=4 src=roster
+[engine]   手牌[4] 1:BE_207 2:TIME_029 3:TIME_026 4:TLC_451 | 盒子槽=4 cardId=TLC_451 -> 用槽 4/4
+[step 031] ok:board_index index=1 size=1
+[engine]   场面[1] 盒子上场位=None -> 落点槽 2
+[step 032] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [1095, 940], 'screen': [1109, 989]}, {'tag': 'mlc_end', 'client': [1080, 539], 'screen': [1094, 588]}] resolved={'hand_slot': 4, 'hand_size': 4, 'board_index': 1, 'board_size': 1}
+[step 033] swallowed action=play card=TLC_451 evidence=牌还在手上 before=10258 after=10338 clicks=[{'tag': 'mlc_start', 'client': [1095, 940], 'screen': [1109, 989]}, {'tag': 'mlc_end', 'client': [1080, 539], 'screen': [1094, 588]}]
+[engine] 动作前重查(主循环) 耗时1ms optionId=5 turnNum=2 n=1 → play TLC_451 手4 场None 目标=None:None/None
+[step 034] ok:my_turn turn=2 current_player=2 my_id=2 options_seq=10258 turn_seq=10071
+[step 035] plan_A action=play card=TLC_451 box_hand=4 box_board=None box_target=None:None turn=2 mine=True seq=10338 ver=22 hand=['BE_207', 'TIME_029', 'TIME_026', 'TLC_451'] board=['CATA_210']
+[step 036] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "play", "hand_position": 4, "board_position": null, "target": null, "target_position": null, "target_card_id": null, "card_name": "咒怨之墓", "card_id": "TLC_451", "ai_win_rate": 72, "mulligan_positions": null, "option_id": 5, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "play_special", "card": {"ZONE_POSITION": 4, "cardId": "TLC_451", "cardName": "咒怨之墓"}, "using_disguised": 0}], "error": "", "optionId": 5, "status": 2, "turnNum": 2}, "timestamp": "2026-10-27T13:42:03.855313"}
+[step 037] ok:hand_slot_bound slot=4 size=4 card=TLC_451
+[step 038] ok:hand_size hand_size=4 slot=4
+[step 039] ok:card_usable card=TLC_451 eid=70 error=NONE slot=4 src=roster
+[engine]   手牌[4] 1:BE_207 2:TIME_029 3:TIME_026 4:TLC_451 | 盒子槽=4 cardId=TLC_451 -> 用槽 4/4
+[step 040] ok:board_index index=1 size=1
+[engine]   场面[1] 盒子上场位=None -> 落点槽 2
+[step 041] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [1095, 940], 'screen': [1109, 989]}, {'tag': 'mlc_end', 'client': [1080, 539], 'screen': [1094, 588]}] resolved={'hand_slot': 4, 'hand_size': 4, 'board_index': 1, 'board_size': 1}
+[step 042] swallowed action=play card=TLC_451 evidence=选择面板还开着 before=10338 after=10554 clicks=[{'tag': 'mlc_start', 'client': [1095, 940], 'screen': [1109, 989]}, {'tag': 'mlc_end', 'client': [1080, 539], 'screen': [1094, 588]}]
+[engine] 动作前重查(主循环) 耗时2ms optionId=-1 turnNum=2 n=1 → unknown CORE_SCH_713 手None 场None 目标=board:2/CORE_SCH_713
+[step 043] ok:choice_open n=3 turn=2 current_player=2 my_id=2
+[step 044] plan_A action=unknown card=CORE_SCH_713 box_hand=None box_board=None box_target=board:2 turn=2 mine=True seq=10554 ver=25 hand=['BE_207', 'TIME_029', 'TIME_026'] board=['CATA_210', 'TLC_451']
+[step 045] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "unknown", "hand_position": null, "board_position": null, "target": "board", "target_position": 2, "target_card_id": "CORE_SCH_713", "card_name": "异教低阶牧师", "card_id": "CORE_SCH_713", "ai_win_rate": 72, "mulligan_positions": null, "option_id": -1, "choice_id": 3, "target_card_name": "异教低阶牧师", "raw_action": "choice"}], "raw_rec": {"choiceId": 3, "data": [{"actionName": "choice", "target": {"ZONE_POSITION": 2, "cardId": "CORE_SCH_713", "cardName": "异教低阶牧师"}}], "error": "", "optionId": -1, "status": 2, "turnNum": 2}, "timestamp": "2026-10-27T13:42:09.919202"}
+[engine]   选择面板[3] 候选 ['BE_094', 'CORE_SCH_713', 'CAP_405']；盒子要 CORE_SCH_713 -> 第 2 个
+[step 046] clicked n=1 clicks=[{'tag': 'lclick', 'client': [956, 463], 'screen': [970, 512]}] resolved={}
+[step 047] swallowed action=unknown card=CORE_SCH_713 evidence=无游戏侧证据 before=10554 after=10759 clicks=[{'tag': 'lclick', 'client': [956, 463], 'screen': [970, 512]}]
+[engine] 动作前重查(主循环) 耗时1ms optionId=6 turnNum=2 n=1 → play CORE_SCH_713 手4 场2 目标=None:None/None
+[step 048] ok:my_turn turn=2 current_player=2 my_id=2 options_seq=10662 turn_seq=10071
+[step 049] plan_A action=play card=CORE_SCH_713 box_hand=4 box_board=2 box_target=None:None turn=2 mine=True seq=10759 ver=29 hand=['BE_207', 'TIME_029', 'TIME_026', 'CORE_SCH_713'] board=['CATA_210']
+[step 050] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "play", "hand_position": 4, "board_position": 2, "target": null, "target_position": null, "target_card_id": null, "card_name": "异教低阶牧师", "card_id": "CORE_SCH_713", "ai_win_rate": 72, "mulligan_positions": null, "option_id": 6, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "play_minion", "card": {"ZONE_POSITION": 4, "cardId": "CORE_SCH_713", "cardName": "异教低阶牧师"}, "position": 2, "using_disguised": 0}], "error": "", "optionId": 6, "status": 2, "turnNum": 2}, "timestamp": "2026-10-27T13:42:16.349142"}
+[step 051] ok:hand_slot_bound slot=4 size=4 card=CORE_SCH_713
+[step 052] ok:hand_size hand_size=4 slot=4
+[step 053] ok:card_usable card=CORE_SCH_713 eid=87 error=NONE slot=4 src=roster
+[engine]   手牌[4] 1:BE_207 2:TIME_029 3:TIME_026 4:CORE_SCH_713 | 盒子槽=4 cardId=CORE_SCH_713 -> 用槽 4/4
+[step 054] ok:board_index index=1 size=1
+[engine]   场面[1] 盒子上场位=2 -> 落点槽 2
+[step 055] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [1095, 940], 'screen': [1109, 989]}, {'tag': 'mlc_end', 'client': [1080, 539], 'screen': [1094, 588]}] resolved={'hand_slot': 4, 'hand_size': 4, 'board_index': 1, 'board_size': 1}
+[step 056] ok:action_effect action=play card=CORE_SCH_713 evidence=PLAY块 before=10759 after=10839 clicks=[{'tag': 'mlc_start', 'client': [1095, 940], 'screen': [1109, 989]}, {'tag': 'mlc_end', 'client': [1080, 539], 'screen': [1094, 588]}]
+[engine] 动作前重查(主循环) 耗时2ms optionId=7 turnNum=2 n=1 → end  手None 场None 目标=None:None/None
+[step 057] ok:my_turn turn=2 current_player=2 my_id=2 options_seq=10839 turn_seq=10071
+[step 058] plan_A action=end card=None box_hand=None box_board=None box_target=None:None turn=2 mine=True seq=10839 ver=31 hand=['BE_207', 'TIME_029', 'TIME_026'] board=['CATA_210', 'CORE_SCH_713']
+[step 059] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "end", "hand_position": null, "board_position": null, "target": null, "target_position": null, "target_card_id": null, "card_name": null, "card_id": null, "ai_win_rate": 72, "mulligan_positions": null, "option_id": 7, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "end_turn"}], "error": "", "optionId": 7, "status": 2, "turnNum": 2}, "timestamp": "2026-10-27T13:42:19.802856"}
+[step 060] clicked n=1 clicks=[{'tag': 'lclick', 'client': [1496, 453], 'screen': [1510, 502]}] resolved={}
+[step 061] ok:action_effect action=end card=None evidence=回合已交出 before=10839 after=11144 clicks=[{'tag': 'lclick', 'client': [1496, 453], 'screen': [1510, 502]}]
+[engine] 等待中 mode=GAMEPLAY turn=2 cur=1 me=2 hand=3 board=2
+[engine] 等待中 mode=GAMEPLAY turn=2 cur=1 me=2 hand=3 board=2
+[engine] 等待中 mode=GAMEPLAY turn=2 cur=1 me=2 hand=3 board=2
+[engine] 等待中 mode=GAMEPLAY turn=2 cur=1 me=2 hand=3 board=2
+[powerlog] 按括号前进: eid=50 HAND -> PLAY（tag=1196 value=0）
+[engine] 我的回合 turn=3（GameTURN=5）
+[engine] 动作前重查(主循环) 耗时0ms optionId=10 turnNum=3 n=2 → play BE_085 手4 场None 目标=None:None/None
+[step 062] ok:my_turn turn=3 current_player=2 my_id=2 options_seq=11466 turn_seq=11317
+[step 063] plan_A action=play card=BE_085 box_hand=4 box_board=None box_target=None:None turn=3 mine=True seq=11552 ver=38 hand=['BE_207', 'TIME_029', 'TIME_026', 'BE_085'] board=['CATA_210', 'CORE_SCH_713']
+[step 064] box_rec_raw n=2 raw={"plans": [{"plan": "A", "action": "play", "hand_position": 4, "board_position": null, "target": null, "target_position": null, "target_card_id": null, "card_name": "召唤仪式", "card_id": "BE_085", "ai_win_rate": 85, "mulligan_positions": null, "option_id": 10, "choice_id": -1}, {"plan": "B", "action": "play", "hand_position": 1, "board_position": 1, "target": null, "target_position": null, "target_card_id": null, "card_name": "不稳定的原型机", "card_id": "BE_207", "ai_win_rate": 85, "mulligan_positions": null, "option_id": 10, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "play_special", "card": {"ZONE_POSITION": 4, "cardId": "BE_085", "cardName": "召唤仪式"}, "using_disguised": 0}, {"actionName": "play_minion", "card": {"ZONE_POSITION": 1, "cardId": "BE_207", "cardName": "不稳定的原型机"}, "position": 1, "using_disguised": 0}], "error": "", "optionId": 10, "status": 2, "turnNum": 3}, "timestamp": "2026-10-27T13:42:53.712580"}
+[step 065] ok:hand_slot_bound slot=4 size=4 card=BE_085
+[step 066] ok:hand_size hand_size=4 slot=4
+[step 067] ok:card_usable card=BE_085 eid=75 error=NONE slot=4 src=roster
+[engine]   手牌[4] 1:BE_207 2:TIME_029 3:TIME_026 4:BE_085 | 盒子槽=4 cardId=BE_085 -> 用槽 4/4
+[step 068] ok:board_index index=2 size=2
+[engine]   场面[2] 盒子上场位=None -> 落点槽 3
+[step 069] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [1095, 940], 'screen': [1109, 989]}, {'tag': 'mlc_end', 'client': [1142, 540], 'screen': [1156, 589]}] resolved={'hand_slot': 4, 'hand_size': 4, 'board_index': 2, 'board_size': 2}
+[step 070] swallowed action=play card=BE_085 evidence=牌还在手上 before=11552 after=11652 clicks=[{'tag': 'mlc_start', 'client': [1095, 940], 'screen': [1109, 989]}, {'tag': 'mlc_end', 'client': [1142, 540], 'screen': [1156, 589]}]
+[engine] 动作前重查(主循环) 耗时1ms optionId=10 turnNum=3 n=2 → play BE_085 手4 场None 目标=None:None/None
+[step 071] ok:my_turn turn=3 current_player=2 my_id=2 options_seq=11466 turn_seq=11317
+[step 072] plan_A action=play card=BE_085 box_hand=4 box_board=None box_target=None:None turn=3 mine=True seq=11652 ver=39 hand=['BE_207', 'TIME_029', 'TIME_026', 'BE_085'] board=['CATA_210', 'CORE_SCH_713']
+[step 073] box_rec_raw n=2 raw={"plans": [{"plan": "A", "action": "play", "hand_position": 4, "board_position": null, "target": null, "target_position": null, "target_card_id": null, "card_name": "召唤仪式", "card_id": "BE_085", "ai_win_rate": 85, "mulligan_positions": null, "option_id": 10, "choice_id": -1}, {"plan": "B", "action": "play", "hand_position": 1, "board_position": 1, "target": null, "target_position": null, "target_card_id": null, "card_name": "不稳定的原型机", "card_id": "BE_207", "ai_win_rate": 85, "mulligan_positions": null, "option_id": 10, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "play_special", "card": {"ZONE_POSITION": 4, "cardId": "BE_085", "cardName": "召唤仪式"}, "using_disguised": 0}, {"actionName": "play_minion", "card": {"ZONE_POSITION": 1, "cardId": "BE_207", "cardName": "不稳定的原型机"}, "position": 1, "using_disguised": 0}], "error": "", "optionId": 10, "status": 2, "turnNum": 3}, "timestamp": "2026-10-27T13:42:59.745979"}
+[step 074] ok:hand_slot_bound slot=4 size=4 card=BE_085
+[step 075] ok:hand_size hand_size=4 slot=4
+[step 076] ok:card_usable card=BE_085 eid=75 error=NONE slot=4 src=roster
+[engine]   手牌[4] 1:BE_207 2:TIME_029 3:TIME_026 4:BE_085 | 盒子槽=4 cardId=BE_085 -> 用槽 4/4
+[step 077] ok:board_index index=2 size=2
+[engine]   场面[2] 盒子上场位=None -> 落点槽 3
+[step 078] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [1095, 940], 'screen': [1109, 989]}, {'tag': 'mlc_end', 'client': [1142, 540], 'screen': [1156, 589]}] resolved={'hand_slot': 4, 'hand_size': 4, 'board_index': 2, 'board_size': 2}
+[step 079] ok:action_effect action=play card=BE_085 evidence=PLAY块 before=11652 after=11718 clicks=[{'tag': 'mlc_start', 'client': [1095, 940], 'screen': [1109, 989]}, {'tag': 'mlc_end', 'client': [1142, 540], 'screen': [1156, 589]}]
+[engine] 动作前重查(主循环) 耗时0ms optionId=11 turnNum=3 n=1 → play BE_207 手1 场1 目标=None:None/None
+[step 080] ok:my_turn turn=3 current_player=2 my_id=2 options_seq=11718 turn_seq=11317
+[step 081] plan_A action=play card=BE_207 box_hand=1 box_board=1 box_target=None:None turn=3 mine=True seq=11718 ver=41 hand=['BE_207', 'TIME_029', 'TIME_026'] board=['CATA_210', 'CORE_SCH_713']
+[step 082] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "play", "hand_position": 1, "board_position": 1, "target": null, "target_position": null, "target_card_id": null, "card_name": "不稳定的原型机", "card_id": "BE_207", "ai_win_rate": 85, "mulligan_positions": null, "option_id": 11, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "play_minion", "card": {"ZONE_POSITION": 1, "cardId": "BE_207", "cardName": "不稳定的原型机"}, "position": 1, "using_disguised": 0}], "error": "", "optionId": 11, "status": 2, "turnNum": 3}, "timestamp": "2026-10-27T13:43:03.133996"}
+[step 083] ok:hand_slot_bound slot=1 size=3 card=BE_207
+[step 084] ok:hand_size hand_size=3 slot=1
+[step 085] ok:card_usable card=BE_207 eid=66 error=NONE slot=1 src=option_map
+[engine]   手牌[3] 1:BE_207 2:TIME_029 3:TIME_026 | 盒子槽=1 cardId=BE_207 -> 用槽 1/3
+[step 086] ok:board_index index=0 size=2
+[engine]   场面[2] 盒子上场位=1 -> 落点槽 1
+[step 087] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [794, 916], 'screen': [808, 965]}, {'tag': 'mlc_end', 'client': [887, 540], 'screen': [901, 589]}] resolved={'hand_slot': 1, 'hand_size': 3, 'board_index': 0, 'board_size': 2}
+[step 088] ok:action_effect action=play card=BE_207 evidence=PLAY块 before=11718 after=11777 clicks=[{'tag': 'mlc_start', 'client': [794, 916], 'screen': [808, 965]}, {'tag': 'mlc_end', 'client': [887, 540], 'screen': [901, 589]}]
+[engine] 动作前重查(主循环) 耗时0ms optionId=12 turnNum=3 n=1 → attack CORE_SCH_713 手None 场3 目标=enemy_hero:None/HERO_06
+[step 089] ok:my_turn turn=3 current_player=2 my_id=2 options_seq=11777 turn_seq=11317
+[step 090] plan_A action=attack card=CORE_SCH_713 box_hand=None box_board=3 box_target=enemy_hero:None turn=3 mine=True seq=11777 ver=43 hand=['TIME_029', 'TIME_026'] board=['BE_207', 'CATA_210', 'CORE_SCH_713']
+[step 091] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "attack", "hand_position": null, "board_position": 3, "target": "enemy_hero", "target_position": null, "target_card_id": "HERO_06", "card_name": "异教低阶牧师", "card_id": "CORE_SCH_713", "ai_win_rate": 85, "mulligan_positions": null, "option_id": 12, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "minion_attack", "card": {"ZONE_POSITION": 3, "cardId": "CORE_SCH_713", "cardName": "异教低阶牧师"}, "opp-target-hero": {"cardId": "HERO_06", "cardName": "玛法里奥·怒风", "health": 30}, "using_disguised": 0}], "error": "", "optionId": 12, "status": 2, "turnNum": 3}, "timestamp": "2026-10-27T13:43:07.363281"}
+[step 092] ok:attacker_slot slot=3 size=3 want=CORE_SCH_713 got=CORE_SCH_713 board=['BE_207', 'CATA_210', 'CORE_SCH_713']
+[engine]   我方场面[3] 攻击者=CORE_SCH_713 -> 槽 3，目标=rival_hero 第 1/0
+[step 093] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [1080, 539], 'screen': [1094, 588]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}] resolved={}
+[step 094] ok:action_effect action=attack card=CORE_SCH_713 evidence=ATTACK块 before=11777 after=11931 clicks=[{'tag': 'mlc_start', 'client': [1080, 539], 'screen': [1094, 588]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}]
+[engine] 动作前重查(主循环) 耗时0ms optionId=13 turnNum=3 n=1 → end  手None 场None 目标=None:None/None
+[step 095] ok:my_turn turn=3 current_player=2 my_id=2 options_seq=11931 turn_seq=11317
+[step 096] plan_A action=end card=None box_hand=None box_board=None box_target=None:None turn=3 mine=True seq=11931 ver=45 hand=['TIME_029', 'TIME_026'] board=['BE_207', 'CATA_210', 'CORE_SCH_713']
+[step 097] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "end", "hand_position": null, "board_position": null, "target": null, "target_position": null, "target_card_id": null, "card_name": null, "card_id": null, "ai_win_rate": 85, "mulligan_positions": null, "option_id": 13, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "end_turn"}], "error": "", "optionId": 13, "status": 2, "turnNum": 3}, "timestamp": "2026-10-27T13:43:09.711772"}
+[step 098] clicked n=1 clicks=[{'tag': 'lclick', 'client': [1496, 453], 'screen': [1510, 502]}] resolved={}
+[step 099] ok:action_effect action=end card=None evidence=回合已交出 before=11931 after=12155 clicks=[{'tag': 'lclick', 'client': [1496, 453], 'screen': [1510, 502]}]
+[engine] 等待中 mode=GAMEPLAY turn=3 cur=1 me=2 hand=2 board=3
+[engine] 等待中 mode=GAMEPLAY turn=3 cur=1 me=2 hand=2 board=3
+[engine] 等待中 mode=GAMEPLAY turn=3 cur=1 me=2 hand=2 board=3
+[engine] 等待中 mode=GAMEPLAY turn=3 cur=1 me=2 hand=2 board=3
+[engine] 我的回合 turn=4（GameTURN=7）
+[engine] 推荐已过期：盒子 turnNum=3 < 我方回合=4（GameEntity.TURN=7）→ 不执行，继续要新推荐
+[step 100] stale_rec box_turn=3 my_turn=4 game_turn=7 option_id=13 action=end card=None
+[engine] 动作前重查(主循环) 耗时0ms optionId=16 turnNum=4 n=1 → play CATA_210 手3 场4 目标=None:None/None
+[step 101] ok:my_turn turn=4 current_player=2 my_id=2 options_seq=12522 turn_seq=12292
+[step 102] plan_A action=play card=CATA_210 box_hand=3 box_board=4 box_target=None:None turn=4 mine=True seq=12522 ver=51 hand=['TIME_029', 'TIME_026', 'CATA_210'] board=['BE_207', 'CATA_210', 'CORE_SCH_713']
+[step 103] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "play", "hand_position": 3, "board_position": 4, "target": null, "target_position": null, "target_card_id": null, "card_name": "暮光龙卵", "card_id": "CATA_210", "ai_win_rate": 89, "mulligan_positions": null, "option_id": 16, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "play_minion", "card": {"ZONE_POSITION": 3, "cardId": "CATA_210", "cardName": "暮光龙卵"}, "position": 4, "using_disguised": 0}], "error": "", "optionId": 16, "status": 2, "turnNum": 4}, "timestamp": "2026-10-27T13:43:43.429476"}
+[step 104] ok:hand_slot_bound slot=3 size=3 card=CATA_210
+[step 105] ok:hand_size hand_size=3 slot=3
+[step 106] ok:card_usable card=CATA_210 eid=83 error=NONE slot=3 src=roster
+[engine]   手牌[3] 1:TIME_029 2:TIME_026 3:CATA_210 | 盒子槽=3 cardId=CATA_210 -> 用槽 3/3
+[step 107] ok:board_index index=3 size=3
+[engine]   场面[3] 盒子上场位=4 -> 落点槽 4
+[step 108] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [1035, 916], 'screen': [1049, 965]}, {'tag': 'mlc_end', 'client': [1205, 539], 'screen': [1219, 588]}] resolved={'hand_slot': 3, 'hand_size': 3, 'board_index': 3, 'board_size': 3}
+[step 109] swallowed action=play card=CATA_210 evidence=牌还在手上 before=12522 after=12617 clicks=[{'tag': 'mlc_start', 'client': [1035, 916], 'screen': [1049, 965]}, {'tag': 'mlc_end', 'client': [1205, 539], 'screen': [1219, 588]}]
+[engine] 动作前重查(主循环) 耗时2ms optionId=16 turnNum=4 n=1 → play CATA_210 手3 场4 目标=None:None/None
+[step 110] ok:my_turn turn=4 current_player=2 my_id=2 options_seq=12522 turn_seq=12292
+[step 111] plan_A action=play card=CATA_210 box_hand=3 box_board=4 box_target=None:None turn=4 mine=True seq=12617 ver=52 hand=['TIME_029', 'TIME_026', 'CATA_210'] board=['BE_207', 'CATA_210', 'CORE_SCH_713']
+[step 112] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "play", "hand_position": 3, "board_position": 4, "target": null, "target_position": null, "target_card_id": null, "card_name": "暮光龙卵", "card_id": "CATA_210", "ai_win_rate": 89, "mulligan_positions": null, "option_id": 16, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "play_minion", "card": {"ZONE_POSITION": 3, "cardId": "CATA_210", "cardName": "暮光龙卵"}, "position": 4, "using_disguised": 0}], "error": "", "optionId": 16, "status": 2, "turnNum": 4}, "timestamp": "2026-10-27T13:43:49.306202"}
+[step 113] ok:hand_slot_bound slot=3 size=3 card=CATA_210
+[step 114] ok:hand_size hand_size=3 slot=3
+[step 115] ok:card_usable card=CATA_210 eid=83 error=NONE slot=3 src=roster
+[engine]   手牌[3] 1:TIME_029 2:TIME_026 3:CATA_210 | 盒子槽=3 cardId=CATA_210 -> 用槽 3/3
+[step 116] ok:board_index index=3 size=3
+[engine]   场面[3] 盒子上场位=4 -> 落点槽 4
+[step 117] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [1035, 916], 'screen': [1049, 965]}, {'tag': 'mlc_end', 'client': [1205, 539], 'screen': [1219, 588]}] resolved={'hand_slot': 3, 'hand_size': 3, 'board_index': 3, 'board_size': 3}
+[step 118] ok:action_effect action=play card=CATA_210 evidence=PLAY块 before=12617 after=12667 clicks=[{'tag': 'mlc_start', 'client': [1035, 916], 'screen': [1049, 965]}, {'tag': 'mlc_end', 'client': [1205, 539], 'screen': [1219, 588]}]
+[engine] 动作前重查(主循环) 耗时1ms optionId=17 turnNum=4 n=2 → hero_power HERO_07bp 手None 场None 目标=None:None/None
+[step 119] ok:my_turn turn=4 current_player=2 my_id=2 options_seq=12667 turn_seq=12292
+[step 120] plan_A action=hero_power card=HERO_07bp box_hand=None box_board=None box_target=None:None turn=4 mine=True seq=12667 ver=54 hand=['TIME_029', 'TIME_026'] board=['BE_207', 'CATA_210', 'CORE_SCH_713', 'CATA_210']
+[step 121] box_rec_raw n=2 raw={"plans": [{"plan": "A", "action": "hero_power", "hand_position": null, "board_position": null, "target": null, "target_position": null, "target_card_id": null, "card_name": "生命分流", "card_id": "HERO_07bp", "ai_win_rate": 89, "mulligan_positions": null, "option_id": 17, "choice_id": -1}, {"plan": "B", "action": "play", "hand_position": 2, "board_position": null, "target": null, "target_position": null, "target_card_id": null, "card_name": "续连熵能", "card_id": "TIME_026", "ai_win_rate": 89, "mulligan_positions": null, "option_id": 17, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "hero_skill", "card": {"cardId": "HERO_07bp", "cardName": "生命分流"}, "using_disguised": 0}, {"actionName": "play_special", "card": {"ZONE_POSITION": 2, "cardId": "TIME_026", "cardName": "续连熵能"}, "using_disguised": 0}], "error": "", "optionId": 17, "status": 2, "turnNum": 4}, "timestamp": "2026-10-27T13:43:52.475740"}
+[step 122] clicked n=1 clicks=[{'tag': 'lclick', 'client': [1112, 757], 'screen': [1126, 806]}] resolved={}
+[step 123] ok:action_effect action=hero_power card=HERO_07bp evidence=POWER块 before=12667 after=12714 clicks=[{'tag': 'lclick', 'client': [1112, 757], 'screen': [1126, 806]}]
+[engine] 动作前重查(主循环) 耗时0ms optionId=17 turnNum=4 n=2 → hero_power HERO_07bp 手None 场None 目标=None:None/None
+[step 124] ok:my_turn turn=4 current_player=2 my_id=2 options_seq=12888 turn_seq=12292
+[step 125] plan_A action=hero_power card=HERO_07bp box_hand=None box_board=None box_target=None:None turn=4 mine=True seq=12888 ver=56 hand=['TIME_029', 'TIME_026', 'TIME_025'] board=['BE_207', 'CATA_210', 'CORE_SCH_713', 'CATA_210']
+[step 126] box_rec_raw n=2 raw={"plans": [{"plan": "A", "action": "hero_power", "hand_position": null, "board_position": null, "target": null, "target_position": null, "target_card_id": null, "card_name": "生命分流", "card_id": "HERO_07bp", "ai_win_rate": 89, "mulligan_positions": null, "option_id": 17, "choice_id": -1}, {"plan": "B", "action": "play", "hand_position": 2, "board_position": null, "target": null, "target_position": null, "target_card_id": null, "card_name": "续连熵能", "card_id": "TIME_026", "ai_win_rate": 89, "mulligan_positions": null, "option_id": 17, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "hero_skill", "card": {"cardId": "HERO_07bp", "cardName": "生命分流"}, "using_disguised": 0}, {"actionName": "play_special", "card": {"ZONE_POSITION": 2, "cardId": "TIME_026", "cardName": "续连熵能"}, "using_disguised": 0}], "error": "", "optionId": 17, "status": 2, "turnNum": 4}, "timestamp": "2026-10-27T13:43:53.901250"}
+[step 127] clicked n=1 clicks=[{'tag': 'lclick', 'client': [1112, 757], 'screen': [1126, 806]}] resolved={}
+[step 128] swallowed action=hero_power card=HERO_07bp evidence=无 POWER 块 before=12888 after=12909 clicks=[{'tag': 'lclick', 'client': [1112, 757], 'screen': [1126, 806]}]
+[engine] 动作前重查(主循环) 耗时1ms optionId=18 turnNum=4 n=1 → play TIME_026 手2 场None 目标=None:None/None
+[step 129] ok:my_turn turn=4 current_player=2 my_id=2 options_seq=12888 turn_seq=12292
+[step 130] plan_A action=play card=TIME_026 box_hand=2 box_board=None box_target=None:None turn=4 mine=True seq=12909 ver=57 hand=['TIME_029', 'TIME_026', 'TIME_025'] board=['BE_207', 'CATA_210', 'CORE_SCH_713', 'CATA_210']
+[step 131] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "play", "hand_position": 2, "board_position": null, "target": null, "target_position": null, "target_card_id": null, "card_name": "续连熵能", "card_id": "TIME_026", "ai_win_rate": 89, "mulligan_positions": null, "option_id": 18, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "play_special", "card": {"ZONE_POSITION": 2, "cardId": "TIME_026", "cardName": "续连熵能"}, "using_disguised": 0}], "error": "", "optionId": 18, "status": 2, "turnNum": 4}, "timestamp": "2026-10-27T13:43:57.720287"}
+[step 132] ok:hand_slot_bound slot=2 size=3 card=TIME_026
+[step 133] ok:hand_size hand_size=3 slot=2
+[step 134] ok:card_usable card=TIME_026 eid=65 error=NONE slot=2 src=option_map
+[engine]   手牌[3] 1:TIME_029 2:TIME_026 3:TIME_025 | 盒子槽=2 cardId=TIME_026 -> 用槽 2/3
+[step 135] ok:board_index index=4 size=4
+[engine]   场面[4] 盒子上场位=None -> 落点槽 5
+[step 136] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [915, 916], 'screen': [929, 965]}, {'tag': 'mlc_end', 'client': [1269, 540], 'screen': [1283, 589]}] resolved={'hand_slot': 2, 'hand_size': 3, 'board_index': 4, 'board_size': 4}
+[step 137] ok:action_effect action=play card=TIME_026 evidence=PLAY块 before=12909 after=13175 clicks=[{'tag': 'mlc_start', 'client': [915, 916], 'screen': [929, 965]}, {'tag': 'mlc_end', 'client': [1269, 540], 'screen': [1283, 589]}]
+[engine] 动作前重查(主循环) 耗时0ms optionId=19 turnNum=4 n=1 → attack CATA_210 手None 场2 目标=enemy_board:1/CORE_SW_439
+[step 138] ok:my_turn turn=4 current_player=2 my_id=2 options_seq=13174 turn_seq=12292
+[step 139] plan_A action=attack card=CATA_210 box_hand=None box_board=2 box_target=enemy_board:1 turn=4 mine=True seq=13305 ver=60 hand=['TIME_029', 'TIME_025'] board=['BE_207', 'CATA_210', 'CORE_SCH_713', 'CATA_210']
+[step 140] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "attack", "hand_position": null, "board_position": 2, "target": "enemy_board", "target_position": 1, "target_card_id": "CORE_SW_439", "card_name": "暮光龙卵", "card_id": "CATA_210", "ai_win_rate": 89, "mulligan_positions": null, "option_id": 19, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "minion_attack", "card": {"ZONE_POSITION": 2, "cardId": "CATA_210", "cardName": "暮光龙卵"}, "opp-target": {"atk": 2, "cardId": "CORE_SW_439", "cardName": "活泼的松鼠", "health": 1, "position": 1, "specialTags": ["DEATHRATTLE"]}, "using_disguised": 0}], "error": "", "optionId": 19, "status": 2, "turnNum": 4}, "timestamp": "2026-10-27T13:44:00.886225"}
+[engine]   敌方目标 CORE_SW_439 盒子上场位=1 我方列表=1 -> 第 1/1 格
+[step 141] ok:attacker_slot slot=2 size=4 want=CATA_210 got=CATA_210 board=['BE_207', 'CATA_210', 'CORE_SCH_713', 'CATA_210']
+[engine]   我方场面[4] 攻击者=CATA_210 -> 槽 2，目标=board 第 1/1
+[step 142] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [887, 540], 'screen': [901, 589]}, {'tag': 'mlc_end', 'client': [949, 370], 'screen': [963, 419]}] resolved={}
+[step 143] ok:action_effect action=attack card=CATA_210 evidence=ATTACK块 before=13305 after=13565 clicks=[{'tag': 'mlc_start', 'client': [887, 540], 'screen': [901, 589]}, {'tag': 'mlc_end', 'client': [949, 370], 'screen': [963, 419]}]
+[engine] 动作前重查(主循环) 耗时0ms optionId=20 turnNum=4 n=1 → attack CORE_SCH_713 手None 场3 目标=enemy_hero:None/HERO_06
+[step 144] ok:my_turn turn=4 current_player=2 my_id=2 options_seq=13565 turn_seq=12292
+[step 145] plan_A action=attack card=CORE_SCH_713 box_hand=None box_board=3 box_target=enemy_hero:None turn=4 mine=True seq=13565 ver=62 hand=['TIME_029', 'TIME_025'] board=['BE_207', 'CATA_210', 'CORE_SCH_713', 'CATA_210']
+[step 146] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "attack", "hand_position": null, "board_position": 3, "target": "enemy_hero", "target_position": null, "target_card_id": "HERO_06", "card_name": "异教低阶牧师", "card_id": "CORE_SCH_713", "ai_win_rate": 89, "mulligan_positions": null, "option_id": 20, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "minion_attack", "card": {"ZONE_POSITION": 3, "cardId": "CORE_SCH_713", "cardName": "异教低阶牧师"}, "opp-target-hero": {"cardId": "HERO_06", "cardName": "玛法里奥·怒风", "health": 30}, "using_disguised": 0}], "error": "", "optionId": 20, "status": 2, "turnNum": 4}, "timestamp": "2026-10-27T13:44:03.341411"}
+[step 147] ok:attacker_slot slot=3 size=4 want=CORE_SCH_713 got=CORE_SCH_713 board=['BE_207', 'CATA_210', 'CORE_SCH_713', 'CATA_210']
+[engine]   我方场面[4] 攻击者=CORE_SCH_713 -> 槽 3，目标=rival_hero 第 1/0
+[step 148] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [1015, 540], 'screen': [1029, 589]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}] resolved={}
+[step 149] ok:action_effect action=attack card=CORE_SCH_713 evidence=ATTACK块 before=13565 after=13810 clicks=[{'tag': 'mlc_start', 'client': [1015, 540], 'screen': [1029, 589]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}]
+[engine] 动作前重查(主循环) 耗时0ms optionId=21 turnNum=4 n=1 → attack BE_207 手None 场1 目标=enemy_hero:None/HERO_06
+[step 150] ok:my_turn turn=4 current_player=2 my_id=2 options_seq=13828 turn_seq=12292
+[step 151] plan_A action=attack card=BE_207 box_hand=None box_board=1 box_target=enemy_hero:None turn=4 mine=True seq=13828 ver=66 hand=['TIME_029', 'TIME_025'] board=['BE_207', 'CATA_210', 'CORE_SCH_713', 'CATA_210']
+[step 152] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "attack", "hand_position": null, "board_position": 1, "target": "enemy_hero", "target_position": null, "target_card_id": "HERO_06", "card_name": "不稳定的原型机", "card_id": "BE_207", "ai_win_rate": 89, "mulligan_positions": null, "option_id": 21, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "minion_attack", "card": {"ZONE_POSITION": 1, "cardId": "BE_207", "cardName": "不稳定的原型机"}, "opp-target-hero": {"cardId": "HERO_06", "cardName": "玛法里奥·怒风", "health": 30}, "using_disguised": 0}], "error": "", "optionId": 21, "status": 2, "turnNum": 4}, "timestamp": "2026-10-27T13:44:05.804729"}
+[step 153] ok:attacker_slot slot=1 size=4 want=BE_207 got=BE_207 board=['BE_207', 'CATA_210', 'CORE_SCH_713', 'CATA_210']
+[engine]   我方场面[4] 攻击者=BE_207 -> 槽 1，目标=rival_hero 第 1/0
+[step 154] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [760, 540], 'screen': [774, 589]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}] resolved={}
+[step 155] swallowed action=attack card=BE_207 evidence=无 ATTACK 块 before=13828 after=13888 clicks=[{'tag': 'mlc_start', 'client': [760, 540], 'screen': [774, 589]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}]
+[engine] 动作前重查(主循环) 耗时0ms optionId=21 turnNum=4 n=1 → attack BE_207 手None 场1 目标=enemy_hero:None/HERO_06
+[step 156] ok:my_turn turn=4 current_player=2 my_id=2 options_seq=13828 turn_seq=12292
+[step 157] plan_A action=attack card=BE_207 box_hand=None box_board=1 box_target=enemy_hero:None turn=4 mine=True seq=13888 ver=68 hand=['TIME_029', 'TIME_025'] board=['BE_207', 'CATA_210', 'CORE_SCH_713', 'CATA_210']
+[step 158] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "attack", "hand_position": null, "board_position": 1, "target": "enemy_hero", "target_position": null, "target_card_id": "HERO_06", "card_name": "不稳定的原型机", "card_id": "BE_207", "ai_win_rate": 89, "mulligan_positions": null, "option_id": 21, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "minion_attack", "card": {"ZONE_POSITION": 1, "cardId": "BE_207", "cardName": "不稳定的原型机"}, "opp-target-hero": {"cardId": "HERO_06", "cardName": "玛法里奥·怒风", "health": 30}, "using_disguised": 0}], "error": "", "optionId": 21, "status": 2, "turnNum": 4}, "timestamp": "2026-10-27T13:44:11.102834"}
+[step 159] ok:attacker_slot slot=1 size=4 want=BE_207 got=BE_207 board=['BE_207', 'CATA_210', 'CORE_SCH_713', 'CATA_210']
+[engine]   我方场面[4] 攻击者=BE_207 -> 槽 1，目标=rival_hero 第 1/0
+[step 160] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [760, 540], 'screen': [774, 589]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}] resolved={}
+[step 161] ok:action_effect action=attack card=BE_207 evidence=ATTACK块 before=13888 after=13989 clicks=[{'tag': 'mlc_start', 'client': [760, 540], 'screen': [774, 589]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}]
+[engine] 动作前重查(主循环) 耗时0ms optionId=22 turnNum=4 n=1 → end  手None 场None 目标=None:None/None
+[step 162] ok:my_turn turn=4 current_player=2 my_id=2 options_seq=13989 turn_seq=12292
+[step 163] plan_A action=end card=None box_hand=None box_board=None box_target=None:None turn=4 mine=True seq=13989 ver=70 hand=['TIME_029', 'TIME_025'] board=['BE_207', 'CATA_210', 'CORE_SCH_713', 'CATA_210']
+[step 164] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "end", "hand_position": null, "board_position": null, "target": null, "target_position": null, "target_card_id": null, "card_name": null, "card_id": null, "ai_win_rate": 89, "mulligan_positions": null, "option_id": 22, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "end_turn"}], "error": "", "optionId": 22, "status": 2, "turnNum": 4}, "timestamp": "2026-10-27T13:44:13.680678"}
+[step 165] clicked n=1 clicks=[{'tag': 'lclick', 'client': [1496, 453], 'screen': [1510, 502]}] resolved={}
+[step 166] ok:action_effect action=end card=None evidence=回合已交出 before=13989 after=14150 clicks=[{'tag': 'lclick', 'client': [1496, 453], 'screen': [1510, 502]}]
+[engine] 等待中 mode=GAMEPLAY turn=4 cur=1 me=2 hand=2 board=4
+[engine] 等待中 mode=GAMEPLAY turn=4 cur=1 me=2 hand=2 board=4
+[engine] 等待中 mode=GAMEPLAY turn=4 cur=1 me=2 hand=2 board=4
+[powerlog] 按括号前进: eid=10 HAND -> PLAY（tag=1196 value=0）
+[engine] 我的回合 turn=5（GameTURN=9）
+[engine] 推荐已过期：盒子 turnNum=4 < 我方回合=5（GameEntity.TURN=9）→ 不执行，继续要新推荐
+[step 167] stale_rec box_turn=4 my_turn=5 game_turn=9 option_id=22 action=end card=None
+[engine] 动作前重查(主循环) 耗时0ms optionId=25 turnNum=5 n=2 → attack BE_207 手None 场1 目标=enemy_board:1/CORE_OG_044
+[step 168] ok:my_turn turn=5 current_player=2 my_id=2 options_seq=14807 turn_seq=14439
+[step 169] plan_A action=attack card=BE_207 box_hand=None box_board=1 box_target=enemy_board:1 turn=5 mine=True seq=14807 ver=79 hand=['TIME_029', 'TIME_025', 'TIME_025'] board=['BE_207', 'CATA_210', 'CORE_SCH_713', 'CATA_210', 'BE_085t', 'BE_085t']
+[step 170] box_rec_raw n=2 raw={"plans": [{"plan": "A", "action": "attack", "hand_position": null, "board_position": 1, "target": "enemy_board", "target_position": 1, "target_card_id": "CORE_OG_044", "card_name": "不稳定的原型机", "card_id": "BE_207", "ai_win_rate": 93, "mulligan_positions": null, "option_id": 25, "choice_id": -1}, {"plan": "B", "action": "hero_power", "hand_position": null, "board_position": null, "target": null, "target_position": null, "target_card_id": null, "card_name": "生命分流", "card_id": "HERO_07bp", "ai_win_rate": 93, "mulligan_positions": null, "option_id": 25, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "minion_attack", "card": {"ZONE_POSITION": 1, "cardId": "BE_207", "cardName": "不稳定的原型机"}, "opp-target": {"atk": 3, "cardId": "CORE_OG_044", "cardName": "范达尔·鹿盔", "health": 6, "position": 1}, "using_disguised": 0}, {"actionName": "hero_skill", "card": {"cardId": "HERO_07bp", "cardName": "生命分流"}, "using_disguised": 0}], "error": "", "optionId": 25, "status": 2, "turnNum": 5}, "timestamp": "2026-10-27T13:44:40.444376"}
+[engine]   敌方目标 CORE_OG_044 盒子上场位=1 我方列表=1 -> 第 1/1 格
+[step 171] ok:attacker_slot slot=1 size=6 want=BE_207 got=BE_207 board=['BE_207', 'CATA_210', 'CORE_SCH_713', 'CATA_210', 'BE_085t', 'BE_085t']
+[engine]   我方场面[6] 攻击者=BE_207 -> 槽 1，目标=board 第 1/1
+[step 172] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [633, 540], 'screen': [647, 589]}, {'tag': 'mlc_end', 'client': [949, 370], 'screen': [963, 419]}] resolved={}
+[step 173] swallowed action=attack card=BE_207 evidence=无 ATTACK 块 before=14807 after=15032 clicks=[{'tag': 'mlc_start', 'client': [633, 540], 'screen': [647, 589]}, {'tag': 'mlc_end', 'client': [949, 370], 'screen': [963, 419]}]
+[engine] 动作前重查(主循环) 耗时0ms optionId=25 turnNum=5 n=2 → attack BE_207 手None 场1 目标=enemy_board:1/CORE_OG_044
+[step 174] ok:my_turn turn=5 current_player=2 my_id=2 options_seq=14807 turn_seq=14439
+[step 175] plan_A action=attack card=BE_207 box_hand=None box_board=1 box_target=enemy_board:1 turn=5 mine=True seq=15032 ver=86 hand=['TIME_029', 'TIME_025', 'TIME_025'] board=['BE_207', 'CATA_210', 'CORE_SCH_713', 'CATA_210', 'BE_085t', 'BE_085t']
+[step 176] box_rec_raw n=2 raw={"plans": [{"plan": "A", "action": "attack", "hand_position": null, "board_position": 1, "target": "enemy_board", "target_position": 1, "target_card_id": "CORE_OG_044", "card_name": "不稳定的原型机", "card_id": "BE_207", "ai_win_rate": 93, "mulligan_positions": null, "option_id": 25, "choice_id": -1}, {"plan": "B", "action": "hero_power", "hand_position": null, "board_position": null, "target": null, "target_position": null, "target_card_id": null, "card_name": "生命分流", "card_id": "HERO_07bp", "ai_win_rate": 93, "mulligan_positions": null, "option_id": 25, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "minion_attack", "card": {"ZONE_POSITION": 1, "cardId": "BE_207", "cardName": "不稳定的原型机"}, "opp-target": {"atk": 3, "cardId": "CORE_OG_044", "cardName": "范达尔·鹿盔", "health": 6, "position": 1}, "using_disguised": 0}, {"actionName": "hero_skill", "card": {"cardId": "HERO_07bp", "cardName": "生命分流"}, "using_disguised": 0}], "error": "", "optionId": 25, "status": 2, "turnNum": 5}, "timestamp": "2026-10-27T13:44:45.612649"}
+[engine]   敌方目标 CORE_OG_044 盒子上场位=1 我方列表=1 -> 第 1/1 格
+[step 177] ok:attacker_slot slot=1 size=6 want=BE_207 got=BE_207 board=['BE_207', 'CATA_210', 'CORE_SCH_713', 'CATA_210', 'BE_085t', 'BE_085t']
+[engine]   我方场面[6] 攻击者=BE_207 -> 槽 1，目标=board 第 1/1
+[step 178] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [633, 540], 'screen': [647, 589]}, {'tag': 'mlc_end', 'client': [949, 370], 'screen': [963, 419]}] resolved={}
+[step 179] ok:action_effect action=attack card=BE_207 evidence=ATTACK块 before=15032 after=15344 clicks=[{'tag': 'mlc_start', 'client': [633, 540], 'screen': [647, 589]}, {'tag': 'mlc_end', 'client': [949, 370], 'screen': [963, 419]}]
+[engine] 动作前重查(主循环) 耗时0ms optionId=26 turnNum=5 n=1 → attack CORE_SCH_713 手None 场3 目标=enemy_board:1/CORE_OG_044
+[step 180] ok:my_turn turn=5 current_player=2 my_id=2 options_seq=15344 turn_seq=14439
+[step 181] plan_A action=attack card=CORE_SCH_713 box_hand=None box_board=3 box_target=enemy_board:1 turn=5 mine=True seq=15344 ver=88 hand=['TIME_029', 'TIME_025', 'TIME_025'] board=['BE_207', 'BE_085t', 'CATA_210', 'CORE_SCH_713', 'CATA_210', 'BE_085t']
+[step 182] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "attack", "hand_position": null, "board_position": 3, "target": "enemy_board", "target_position": 1, "target_card_id": "CORE_OG_044", "card_name": "异教低阶牧师", "card_id": "CORE_SCH_713", "ai_win_rate": 93, "mulligan_positions": null, "option_id": 26, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "minion_attack", "card": {"ZONE_POSITION": 3, "cardId": "CORE_SCH_713", "cardName": "异教低阶牧师"}, "opp-target": {"atk": 3, "cardId": "CORE_OG_044", "cardName": "范达尔·鹿盔", "health": 6, "position": 1}, "using_disguised": 0}], "error": "", "optionId": 26, "status": 2, "turnNum": 5}, "timestamp": "2026-10-27T13:44:47.964831"}
+[engine]   敌方目标 CORE_OG_044 盒子上场位=1 我方列表=1 -> 第 1/1 格
+[step 183] ok:attacker_slot slot=4 size=6 want=CORE_SCH_713 got=CORE_SCH_713 board=['BE_207', 'BE_085t', 'CATA_210', 'CORE_SCH_713', 'CATA_210', 'BE_085t']
+[engine]   我方场面[6] 攻击者=CORE_SCH_713 -> 槽 4，目标=board 第 1/1
+[step 184] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [1015, 540], 'screen': [1029, 589]}, {'tag': 'mlc_end', 'client': [949, 370], 'screen': [963, 419]}] resolved={}
+[step 185] swallowed action=attack card=CORE_SCH_713 evidence=无 ATTACK 块 before=15344 after=15541 clicks=[{'tag': 'mlc_start', 'client': [1015, 540], 'screen': [1029, 589]}, {'tag': 'mlc_end', 'client': [949, 370], 'screen': [963, 419]}]
+[engine] 动作前重查(主循环) 耗时0ms optionId=26 turnNum=5 n=1 → attack CORE_SCH_713 手None 场3 目标=enemy_board:1/CORE_OG_044
+[step 186] ok:my_turn turn=5 current_player=2 my_id=2 options_seq=15344 turn_seq=14439
+[step 187] plan_A action=attack card=CORE_SCH_713 box_hand=None box_board=3 box_target=enemy_board:1 turn=5 mine=True seq=15541 ver=89 hand=['TIME_029', 'TIME_025', 'TIME_025'] board=['BE_207', 'BE_085t', 'CATA_210', 'CORE_SCH_713', 'CATA_210', 'BE_085t']
+[step 188] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "attack", "hand_position": null, "board_position": 3, "target": "enemy_board", "target_position": 1, "target_card_id": "CORE_OG_044", "card_name": "异教低阶牧师", "card_id": "CORE_SCH_713", "ai_win_rate": 93, "mulligan_positions": null, "option_id": 26, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "minion_attack", "card": {"ZONE_POSITION": 3, "cardId": "CORE_SCH_713", "cardName": "异教低阶牧师"}, "opp-target": {"atk": 3, "cardId": "CORE_OG_044", "cardName": "范达尔·鹿盔", "health": 6, "position": 1}, "using_disguised": 0}], "error": "", "optionId": 26, "status": 2, "turnNum": 5}, "timestamp": "2026-10-27T13:44:53.221839"}
+[engine]   敌方目标 CORE_OG_044 盒子上场位=1 我方列表=1 -> 第 1/1 格
+[step 189] ok:attacker_slot slot=4 size=6 want=CORE_SCH_713 got=CORE_SCH_713 board=['BE_207', 'BE_085t', 'CATA_210', 'CORE_SCH_713', 'CATA_210', 'BE_085t']
+[engine]   我方场面[6] 攻击者=CORE_SCH_713 -> 槽 4，目标=board 第 1/1
+[step 190] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [1015, 540], 'screen': [1029, 589]}, {'tag': 'mlc_end', 'client': [949, 370], 'screen': [963, 419]}] resolved={}
+[step 191] swallowed action=attack card=CORE_SCH_713 evidence=无 ATTACK 块 before=15541 after=15859 clicks=[{'tag': 'mlc_start', 'client': [1015, 540], 'screen': [1029, 589]}, {'tag': 'mlc_end', 'client': [949, 370], 'screen': [963, 419]}]
+[engine] 动作前重查(主循环) 耗时0ms optionId=27 turnNum=5 n=1 → attack CORE_SCH_713 手None 场3 目标=enemy_board:1/CORE_OG_044
+[step 192] ok:my_turn turn=5 current_player=2 my_id=2 options_seq=15758 turn_seq=14439
+[step 193] plan_A action=attack card=CORE_SCH_713 box_hand=None box_board=3 box_target=enemy_board:1 turn=5 mine=True seq=15859 ver=94 hand=['TIME_029', 'TIME_025', 'TIME_025'] board=['BE_207', 'CATA_210', 'CORE_SCH_713', 'CATA_210t', 'BE_085t', 'BE_085t']
+[step 194] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "attack", "hand_position": null, "board_position": 3, "target": "enemy_board", "target_position": 1, "target_card_id": "CORE_OG_044", "card_name": "异教低阶牧师", "card_id": "CORE_SCH_713", "ai_win_rate": 93, "mulligan_positions": null, "option_id": 27, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "minion_attack", "card": {"ZONE_POSITION": 3, "cardId": "CORE_SCH_713", "cardName": "异教低阶牧师"}, "opp-target": {"atk": 3, "cardId": "CORE_OG_044", "cardName": "范达尔·鹿盔", "health": 6, "position": 1}, "using_disguised": 0}], "error": "", "optionId": 27, "status": 2, "turnNum": 5}, "timestamp": "2026-10-27T13:44:58.544027"}
+[engine]   敌方目标 CORE_OG_044 盒子上场位=1 我方列表=1 -> 第 1/1 格
+[step 195] ok:attacker_slot slot=3 size=6 want=CORE_SCH_713 got=CORE_SCH_713 board=['BE_207', 'CATA_210', 'CORE_SCH_713', 'CATA_210t', 'BE_085t', 'BE_085t']
+[engine]   我方场面[6] 攻击者=CORE_SCH_713 -> 槽 3，目标=board 第 1/1
+[step 196] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [887, 540], 'screen': [901, 589]}, {'tag': 'mlc_end', 'client': [949, 370], 'screen': [963, 419]}] resolved={}
+[step 197] ok:action_effect action=attack card=CORE_SCH_713 evidence=ATTACK块 before=15859 after=16009 clicks=[{'tag': 'mlc_start', 'client': [887, 540], 'screen': [901, 589]}, {'tag': 'mlc_end', 'client': [949, 370], 'screen': [963, 419]}]
+[engine] 动作前重查(主循环) 耗时0ms optionId=28 turnNum=5 n=2 → play TIME_029 手1 场1 目标=None:None/None
+[step 198] ok:my_turn turn=5 current_player=2 my_id=2 options_seq=16030 turn_seq=14439
+[step 199] plan_A action=play card=TIME_029 box_hand=1 box_board=1 box_target=None:None turn=5 mine=True seq=16030 ver=97 hand=['TIME_029', 'TIME_025', 'TIME_025'] board=['BE_207', 'CATA_210', 'CATA_210t', 'BE_085t', 'BE_085t']
+[step 200] box_rec_raw n=2 raw={"plans": [{"plan": "A", "action": "play", "hand_position": 1, "board_position": 1, "target": null, "target_position": null, "target_card_id": null, "card_name": "灾毁迅疾幼龙", "card_id": "TIME_029", "ai_win_rate": 93, "mulligan_positions": null, "option_id": 28, "choice_id": -1}, {"plan": "B", "action": "hero_power", "hand_position": null, "board_position": null, "target": null, "target_position": null, "target_card_id": null, "card_name": "生命分流", "card_id": "HERO_07bp", "ai_win_rate": 93, "mulligan_positions": null, "option_id": 28, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "play_minion", "card": {"ZONE_POSITION": 1, "cardId": "TIME_029", "cardName": "灾毁迅疾幼龙"}, "position": 1, "using_disguised": 0}, {"actionName": "hero_skill", "card": {"cardId": "HERO_07bp", "cardName": "生命分流"}, "using_disguised": 0}], "error": "", "optionId": 28, "status": 2, "turnNum": 5}, "timestamp": "2026-10-27T13:45:00.915356"}
+[step 201] ok:hand_slot_bound slot=1 size=3 card=TIME_029
+[step 202] ok:hand_size hand_size=3 slot=1
+[step 203] ok:card_usable card=TIME_029 eid=84 error=NONE slot=1 src=option_map
+[engine]   手牌[3] 1:TIME_029 2:TIME_025 3:TIME_025 | 盒子槽=1 cardId=TIME_029 -> 用槽 1/3
+[step 204] ok:board_index index=0 size=5
+[engine]   场面[5] 盒子上场位=1 -> 落点槽 1
+[step 205] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [794, 916], 'screen': [808, 965]}, {'tag': 'mlc_end', 'client': [697, 539], 'screen': [711, 588]}] resolved={'hand_slot': 1, 'hand_size': 3, 'board_index': 0, 'board_size': 5}
+[step 206] ok:action_effect action=play card=TIME_029 evidence=PLAY块 before=16030 after=16366 clicks=[{'tag': 'mlc_start', 'client': [794, 916], 'screen': [808, 965]}, {'tag': 'mlc_end', 'client': [697, 539], 'screen': [711, 588]}]
+[engine] 动作前重查(主循环) 耗时0ms optionId=29 turnNum=5 n=1 → attack CATA_210 手None 场4 目标=enemy_hero:None/HERO_06
+[step 207] ok:my_turn turn=5 current_player=2 my_id=2 options_seq=16320 turn_seq=14439
+[step 208] plan_A action=attack card=CATA_210 box_hand=None box_board=4 box_target=enemy_hero:None turn=5 mine=True seq=16366 ver=99 hand=['TIME_025', 'TIME_025'] board=['TIME_029', 'TIME_029', 'BE_207', 'CATA_210t', 'CATA_210', 'BE_085t', 'BE_085t']
+[step 209] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "attack", "hand_position": null, "board_position": 4, "target": "enemy_hero", "target_position": null, "target_card_id": "HERO_06", "card_name": "暮光龙卵", "card_id": "CATA_210", "ai_win_rate": 93, "mulligan_positions": null, "option_id": 29, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "minion_attack", "card": {"ZONE_POSITION": 4, "cardId": "CATA_210", "cardName": "暮光龙卵"}, "opp-target-hero": {"cardId": "HERO_06", "cardName": "玛法里奥·怒风", "health": 30}, "using_disguised": 0}], "error": "", "optionId": 29, "status": 2, "turnNum": 5}, "timestamp": "2026-10-27T13:45:04.351840"}
+[step 210] ok:attacker_slot slot=5 size=7 want=CATA_210 got=CATA_210 board=['TIME_029', 'TIME_029', 'BE_207', 'CATA_210t', 'CATA_210', 'BE_085t', 'BE_085t']
+[engine]   我方场面[7] 攻击者=CATA_210 -> 槽 5，目标=rival_hero 第 1/0
+[step 211] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [1080, 539], 'screen': [1094, 588]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}] resolved={}
+[step 212] swallowed action=attack card=CATA_210 evidence=无 ATTACK 块 before=16366 after=16513 clicks=[{'tag': 'mlc_start', 'client': [1080, 539], 'screen': [1094, 588]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}]
+[engine] 动作前重查(主循环) 耗时1ms optionId=29 turnNum=5 n=1 → attack CATA_210 手None 场4 目标=enemy_hero:None/HERO_06
+[step 213] ok:my_turn turn=5 current_player=2 my_id=2 options_seq=16320 turn_seq=14439
+[step 214] plan_A action=attack card=CATA_210 box_hand=None box_board=4 box_target=enemy_hero:None turn=5 mine=True seq=16513 ver=103 hand=['TIME_025', 'TIME_025'] board=['TIME_029', 'TIME_029', 'BE_207', 'CATA_210t', 'CATA_210', 'BE_085t', 'BE_085t']
+[step 215] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "attack", "hand_position": null, "board_position": 4, "target": "enemy_hero", "target_position": null, "target_card_id": "HERO_06", "card_name": "暮光龙卵", "card_id": "CATA_210", "ai_win_rate": 93, "mulligan_positions": null, "option_id": 29, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "minion_attack", "card": {"ZONE_POSITION": 4, "cardId": "CATA_210", "cardName": "暮光龙卵"}, "opp-target-hero": {"cardId": "HERO_06", "cardName": "玛法里奥·怒风", "health": 30}, "using_disguised": 0}], "error": "", "optionId": 29, "status": 2, "turnNum": 5}, "timestamp": "2026-10-27T13:45:09.602438"}
+[step 216] ok:attacker_slot slot=5 size=7 want=CATA_210 got=CATA_210 board=['TIME_029', 'TIME_029', 'BE_207', 'CATA_210t', 'CATA_210', 'BE_085t', 'BE_085t']
+[engine]   我方场面[7] 攻击者=CATA_210 -> 槽 5，目标=rival_hero 第 1/0
+[step 217] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [1080, 539], 'screen': [1094, 588]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}] resolved={}
+[step 218] swallowed action=attack card=CATA_210 evidence=无 ATTACK 块 before=16513 after=16513 clicks=[{'tag': 'mlc_start', 'client': [1080, 539], 'screen': [1094, 588]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}]
+[engine] 动作前重查(主循环) 耗时0ms optionId=29 turnNum=5 n=1 → attack CATA_210 手None 场4 目标=enemy_hero:None/HERO_06
+[step 219] ok:my_turn turn=5 current_player=2 my_id=2 options_seq=16320 turn_seq=14439
+[step 220] plan_A action=attack card=CATA_210 box_hand=None box_board=4 box_target=enemy_hero:None turn=5 mine=True seq=16513 ver=103 hand=['TIME_025', 'TIME_025'] board=['TIME_029', 'TIME_029', 'BE_207', 'CATA_210t', 'CATA_210', 'BE_085t', 'BE_085t']
+[step 221] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "attack", "hand_position": null, "board_position": 4, "target": "enemy_hero", "target_position": null, "target_card_id": "HERO_06", "card_name": "暮光龙卵", "card_id": "CATA_210", "ai_win_rate": 93, "mulligan_positions": null, "option_id": 29, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "minion_attack", "card": {"ZONE_POSITION": 4, "cardId": "CATA_210", "cardName": "暮光龙卵"}, "opp-target-hero": {"cardId": "HERO_06", "cardName": "玛法里奥·怒风", "health": 30}, "using_disguised": 0}], "error": "", "optionId": 29, "status": 2, "turnNum": 5}, "timestamp": "2026-10-27T13:45:14.848046"}
+[step 222] ok:attacker_slot slot=5 size=7 want=CATA_210 got=CATA_210 board=['TIME_029', 'TIME_029', 'BE_207', 'CATA_210t', 'CATA_210', 'BE_085t', 'BE_085t']
+[engine]   我方场面[7] 攻击者=CATA_210 -> 槽 5，目标=rival_hero 第 1/0
+[step 223] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [1080, 539], 'screen': [1094, 588]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}] resolved={}
+[step 224] swallowed action=attack card=CATA_210 evidence=无 ATTACK 块 before=16513 after=16513 clicks=[{'tag': 'mlc_start', 'client': [1080, 539], 'screen': [1094, 588]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}]
+[engine] 动作前重查(主循环) 耗时0ms optionId=29 turnNum=5 n=1 → attack CATA_210 手None 场4 目标=enemy_hero:None/HERO_06
+[step 225] ok:my_turn turn=5 current_player=2 my_id=2 options_seq=16320 turn_seq=14439
+[step 226] plan_A action=attack card=CATA_210 box_hand=None box_board=4 box_target=enemy_hero:None turn=5 mine=True seq=16513 ver=103 hand=['TIME_025', 'TIME_025'] board=['TIME_029', 'TIME_029', 'BE_207', 'CATA_210t', 'CATA_210', 'BE_085t', 'BE_085t']
+[step 227] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "attack", "hand_position": null, "board_position": 4, "target": "enemy_hero", "target_position": null, "target_card_id": "HERO_06", "card_name": "暮光龙卵", "card_id": "CATA_210", "ai_win_rate": 93, "mulligan_positions": null, "option_id": 29, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "minion_attack", "card": {"ZONE_POSITION": 4, "cardId": "CATA_210", "cardName": "暮光龙卵"}, "opp-target-hero": {"cardId": "HERO_06", "cardName": "玛法里奥·怒风", "health": 30}, "using_disguised": 0}], "error": "", "optionId": 29, "status": 2, "turnNum": 5}, "timestamp": "2026-10-27T13:45:20.196085"}
+[step 228] ok:attacker_slot slot=5 size=7 want=CATA_210 got=CATA_210 board=['TIME_029', 'TIME_029', 'BE_207', 'CATA_210t', 'CATA_210', 'BE_085t', 'BE_085t']
+[engine]   我方场面[7] 攻击者=CATA_210 -> 槽 5，目标=rival_hero 第 1/0
+[step 229] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [1080, 539], 'screen': [1094, 588]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}] resolved={}
+[step 230] swallowed action=attack card=CATA_210 evidence=无 ATTACK 块 before=16513 after=16513 clicks=[{'tag': 'mlc_start', 'client': [1080, 539], 'screen': [1094, 588]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}]
+[engine] 动作前重查(主循环) 耗时2ms optionId=29 turnNum=5 n=1 → attack CATA_210 手None 场4 目标=enemy_hero:None/HERO_06
+[step 231] ok:my_turn turn=5 current_player=2 my_id=2 options_seq=16320 turn_seq=14439
+[step 232] plan_A action=attack card=CATA_210 box_hand=None box_board=4 box_target=enemy_hero:None turn=5 mine=True seq=16513 ver=103 hand=['TIME_025', 'TIME_025'] board=['TIME_029', 'TIME_029', 'BE_207', 'CATA_210t', 'CATA_210', 'BE_085t', 'BE_085t']
+[step 233] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "attack", "hand_position": null, "board_position": 4, "target": "enemy_hero", "target_position": null, "target_card_id": "HERO_06", "card_name": "暮光龙卵", "card_id": "CATA_210", "ai_win_rate": 93, "mulligan_positions": null, "option_id": 29, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "minion_attack", "card": {"ZONE_POSITION": 4, "cardId": "CATA_210", "cardName": "暮光龙卵"}, "opp-target-hero": {"cardId": "HERO_06", "cardName": "玛法里奥·怒风", "health": 30}, "using_disguised": 0}], "error": "", "optionId": 29, "status": 2, "turnNum": 5}, "timestamp": "2026-10-27T13:45:25.406210"}
+[step 234] ok:attacker_slot slot=5 size=7 want=CATA_210 got=CATA_210 board=['TIME_029', 'TIME_029', 'BE_207', 'CATA_210t', 'CATA_210', 'BE_085t', 'BE_085t']
+[engine]   我方场面[7] 攻击者=CATA_210 -> 槽 5，目标=rival_hero 第 1/0
+[step 235] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [1080, 539], 'screen': [1094, 588]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}] resolved={}
+[step 236] swallowed action=attack card=CATA_210 evidence=无 ATTACK 块 before=16513 after=16513 clicks=[{'tag': 'mlc_start', 'client': [1080, 539], 'screen': [1094, 588]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}]
+[engine] 动作前重查(主循环) 耗时0ms optionId=29 turnNum=5 n=1 → attack CATA_210 手None 场4 目标=enemy_hero:None/HERO_06
+[step 237] ok:my_turn turn=5 current_player=2 my_id=2 options_seq=16320 turn_seq=14439
+[step 238] plan_A action=attack card=CATA_210 box_hand=None box_board=4 box_target=enemy_hero:None turn=5 mine=True seq=16513 ver=103 hand=['TIME_025', 'TIME_025'] board=['TIME_029', 'TIME_029', 'BE_207', 'CATA_210t', 'CATA_210', 'BE_085t', 'BE_085t']
+[step 239] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "attack", "hand_position": null, "board_position": 4, "target": "enemy_hero", "target_position": null, "target_card_id": "HERO_06", "card_name": "暮光龙卵", "card_id": "CATA_210", "ai_win_rate": 93, "mulligan_positions": null, "option_id": 29, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "minion_attack", "card": {"ZONE_POSITION": 4, "cardId": "CATA_210", "cardName": "暮光龙卵"}, "opp-target-hero": {"cardId": "HERO_06", "cardName": "玛法里奥·怒风", "health": 30}, "using_disguised": 0}], "error": "", "optionId": 29, "status": 2, "turnNum": 5}, "timestamp": "2026-10-27T13:45:30.643982"}
+[step 240] ok:attacker_slot slot=5 size=7 want=CATA_210 got=CATA_210 board=['TIME_029', 'TIME_029', 'BE_207', 'CATA_210t', 'CATA_210', 'BE_085t', 'BE_085t']
+[engine]   我方场面[7] 攻击者=CATA_210 -> 槽 5，目标=rival_hero 第 1/0
+[step 241] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [1080, 539], 'screen': [1094, 588]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}] resolved={}
+[step 242] swallowed action=attack card=CATA_210 evidence=无 ATTACK 块 before=16513 after=16513 clicks=[{'tag': 'mlc_start', 'client': [1080, 539], 'screen': [1094, 588]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}]
+[engine] 动作前重查(主循环) 耗时0ms optionId=29 turnNum=5 n=1 → attack CATA_210 手None 场4 目标=enemy_hero:None/HERO_06
+[step 243] ok:my_turn turn=5 current_player=2 my_id=2 options_seq=16320 turn_seq=14439
+[step 244] plan_A action=attack card=CATA_210 box_hand=None box_board=4 box_target=enemy_hero:None turn=5 mine=True seq=16513 ver=103 hand=['TIME_025', 'TIME_025'] board=['TIME_029', 'TIME_029', 'BE_207', 'CATA_210t', 'CATA_210', 'BE_085t', 'BE_085t']
+[step 245] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "attack", "hand_position": null, "board_position": 4, "target": "enemy_hero", "target_position": null, "target_card_id": "HERO_06", "card_name": "暮光龙卵", "card_id": "CATA_210", "ai_win_rate": 93, "mulligan_positions": null, "option_id": 29, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "minion_attack", "card": {"ZONE_POSITION": 4, "cardId": "CATA_210", "cardName": "暮光龙卵"}, "opp-target-hero": {"cardId": "HERO_06", "cardName": "玛法里奥·怒风", "health": 30}, "using_disguised": 0}], "error": "", "optionId": 29, "status": 2, "turnNum": 5}, "timestamp": "2026-10-27T13:45:35.987087"}
+[step 246] ok:attacker_slot slot=5 size=7 want=CATA_210 got=CATA_210 board=['TIME_029', 'TIME_029', 'BE_207', 'CATA_210t', 'CATA_210', 'BE_085t', 'BE_085t']
+[engine]   我方场面[7] 攻击者=CATA_210 -> 槽 5，目标=rival_hero 第 1/0
+[step 247] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [1080, 539], 'screen': [1094, 588]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}] resolved={}
+[step 248] swallowed action=attack card=CATA_210 evidence=无 ATTACK 块 before=16513 after=16513 clicks=[{'tag': 'mlc_start', 'client': [1080, 539], 'screen': [1094, 588]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}]
+[engine] 局面 32s 未动，继续轮询 turn=5 cur=2 me=2 hand=2 board=7
+[engine] 动作前重查(主循环) 耗时0ms optionId=29 turnNum=5 n=1 → attack CATA_210 手None 场4 目标=enemy_hero:None/HERO_06
+[step 249] ok:my_turn turn=5 current_player=2 my_id=2 options_seq=16320 turn_seq=14439
+[step 250] plan_A action=attack card=CATA_210 box_hand=None box_board=4 box_target=enemy_hero:None turn=5 mine=True seq=16513 ver=103 hand=['TIME_025', 'TIME_025'] board=['TIME_029', 'TIME_029', 'BE_207', 'CATA_210t', 'CATA_210', 'BE_085t', 'BE_085t']
+[step 251] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "attack", "hand_position": null, "board_position": 4, "target": "enemy_hero", "target_position": null, "target_card_id": "HERO_06", "card_name": "暮光龙卵", "card_id": "CATA_210", "ai_win_rate": 93, "mulligan_positions": null, "option_id": 29, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "minion_attack", "card": {"ZONE_POSITION": 4, "cardId": "CATA_210", "cardName": "暮光龙卵"}, "opp-target-hero": {"cardId": "HERO_06", "cardName": "玛法里奥·怒风", "health": 30}, "using_disguised": 0}], "error": "", "optionId": 29, "status": 2, "turnNum": 5}, "timestamp": "2026-10-27T13:45:41.231941"}
+[step 252] ok:attacker_slot slot=5 size=7 want=CATA_210 got=CATA_210 board=['TIME_029', 'TIME_029', 'BE_207', 'CATA_210t', 'CATA_210', 'BE_085t', 'BE_085t']
+[engine]   我方场面[7] 攻击者=CATA_210 -> 槽 5，目标=rival_hero 第 1/0
+[step 253] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [1080, 539], 'screen': [1094, 588]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}] resolved={}
+[step 254] swallowed action=attack card=CATA_210 evidence=无 ATTACK 块 before=16513 after=16513 clicks=[{'tag': 'mlc_start', 'client': [1080, 539], 'screen': [1094, 588]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}]
+[engine] 动作前重查(主循环) 耗时0ms optionId=29 turnNum=5 n=1 → attack CATA_210 手None 场4 目标=enemy_hero:None/HERO_06
+[step 255] ok:my_turn turn=5 current_player=2 my_id=2 options_seq=16320 turn_seq=14439
+[step 256] plan_A action=attack card=CATA_210 box_hand=None box_board=4 box_target=enemy_hero:None turn=5 mine=True seq=16513 ver=103 hand=['TIME_025', 'TIME_025'] board=['TIME_029', 'TIME_029', 'BE_207', 'CATA_210t', 'CATA_210', 'BE_085t', 'BE_085t']
+[step 257] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "attack", "hand_position": null, "board_position": 4, "target": "enemy_hero", "target_position": null, "target_card_id": "HERO_06", "card_name": "暮光龙卵", "card_id": "CATA_210", "ai_win_rate": 93, "mulligan_positions": null, "option_id": 29, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "minion_attack", "card": {"ZONE_POSITION": 4, "cardId": "CATA_210", "cardName": "暮光龙卵"}, "opp-target-hero": {"cardId": "HERO_06", "cardName": "玛法里奥·怒风", "health": 30}, "using_disguised": 0}], "error": "", "optionId": 29, "status": 2, "turnNum": 5}, "timestamp": "2026-10-27T13:45:46.432216"}
+[step 258] ok:attacker_slot slot=5 size=7 want=CATA_210 got=CATA_210 board=['TIME_029', 'TIME_029', 'BE_207', 'CATA_210t', 'CATA_210', 'BE_085t', 'BE_085t']
+[engine]   我方场面[7] 攻击者=CATA_210 -> 槽 5，目标=rival_hero 第 1/0
+[step 259] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [1080, 539], 'screen': [1094, 588]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}] resolved={}
+[step 260] swallowed action=attack card=CATA_210 evidence=无 ATTACK 块 before=16513 after=16513 clicks=[{'tag': 'mlc_start', 'client': [1080, 539], 'screen': [1094, 588]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}]
+[engine] 动作前重查(主循环) 耗时1ms optionId=29 turnNum=5 n=1 → attack CATA_210 手None 场4 目标=enemy_hero:None/HERO_06
+[step 261] ok:my_turn turn=5 current_player=2 my_id=2 options_seq=16320 turn_seq=14439
+[step 262] plan_A action=attack card=CATA_210 box_hand=None box_board=4 box_target=enemy_hero:None turn=5 mine=True seq=16513 ver=103 hand=['TIME_025', 'TIME_025'] board=['TIME_029', 'TIME_029', 'BE_207', 'CATA_210t', 'CATA_210', 'BE_085t', 'BE_085t']
+[step 263] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "attack", "hand_position": null, "board_position": 4, "target": "enemy_hero", "target_position": null, "target_card_id": "HERO_06", "card_name": "暮光龙卵", "card_id": "CATA_210", "ai_win_rate": 93, "mulligan_positions": null, "option_id": 29, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "minion_attack", "card": {"ZONE_POSITION": 4, "cardId": "CATA_210", "cardName": "暮光龙卵"}, "opp-target-hero": {"cardId": "HERO_06", "cardName": "玛法里奥·怒风", "health": 30}, "using_disguised": 0}], "error": "", "optionId": 29, "status": 2, "turnNum": 5}, "timestamp": "2026-10-27T13:45:52.295025"}
+[step 264] ok:attacker_slot slot=5 size=7 want=CATA_210 got=CATA_210 board=['TIME_029', 'TIME_029', 'BE_207', 'CATA_210t', 'CATA_210', 'BE_085t', 'BE_085t']
+[engine]   我方场面[7] 攻击者=CATA_210 -> 槽 5，目标=rival_hero 第 1/0
+[step 265] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [1080, 539], 'screen': [1094, 588]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}] resolved={}
+[step 266] swallowed action=attack card=CATA_210 evidence=无 ATTACK 块 before=16513 after=16513 clicks=[{'tag': 'mlc_start', 'client': [1080, 539], 'screen': [1094, 588]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}]
+[engine] 动作前重查(主循环) 耗时0ms optionId=29 turnNum=5 n=1 → attack CATA_210 手None 场4 目标=enemy_hero:None/HERO_06
+[step 267] ok:my_turn turn=5 current_player=2 my_id=2 options_seq=16320 turn_seq=14439
+[step 268] plan_A action=attack card=CATA_210 box_hand=None box_board=4 box_target=enemy_hero:None turn=5 mine=True seq=16513 ver=103 hand=['TIME_025', 'TIME_025'] board=['TIME_029', 'TIME_029', 'BE_207', 'CATA_210t', 'CATA_210', 'BE_085t', 'BE_085t']
+[step 269] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "attack", "hand_position": null, "board_position": 4, "target": "enemy_hero", "target_position": null, "target_card_id": "HERO_06", "card_name": "暮光龙卵", "card_id": "CATA_210", "ai_win_rate": 93, "mulligan_positions": null, "option_id": 29, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "minion_attack", "card": {"ZONE_POSITION": 4, "cardId": "CATA_210", "cardName": "暮光龙卵"}, "opp-target-hero": {"cardId": "HERO_06", "cardName": "玛法里奥·怒风", "health": 30}, "using_disguised": 0}], "error": "", "optionId": 29, "status": 2, "turnNum": 5}, "timestamp": "2026-10-27T13:45:57.707599"}
+[step 270] ok:attacker_slot slot=5 size=7 want=CATA_210 got=CATA_210 board=['TIME_029', 'TIME_029', 'BE_207', 'CATA_210t', 'CATA_210', 'BE_085t', 'BE_085t']
+[engine]   我方场面[7] 攻击者=CATA_210 -> 槽 5，目标=rival_hero 第 1/0
+[step 271] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [1080, 539], 'screen': [1094, 588]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}] resolved={}
+[step 272] swallowed action=attack card=CATA_210 evidence=无 ATTACK 块 before=16513 after=16753 clicks=[{'tag': 'mlc_start', 'client': [1080, 539], 'screen': [1094, 588]}, {'tag': 'mlc_end', 'client': [953, 197], 'screen': [967, 246]}]
+[engine] 等待中 mode=GAMEPLAY turn=5 cur=1 me=2 hand=2 board=7
+[engine] 等待中 mode=GAMEPLAY turn=5 cur=1 me=2 hand=2 board=7

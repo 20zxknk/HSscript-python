@@ -1,0 +1,12 @@
+[engine]   [?] ���Ӳ� 2 �뿨�� TIME_026 ��ͻ�����ÿ������ڲ� 3
+[step 064] slot_from_card card=TIME_026 box_slot=2 used_slot=3
+[step 065] FAIL:hand_slot slot=3 size=3 want=TIME_026 got=BE_726 hand=['BE_086', 'TIME_026', 'BE_726']
+[engine]   [?] ���Ӳ� 2 �뿨�� TIME_026 ��ͻ�����ÿ������ڲ� 3
+[step 070] slot_from_card card=TIME_026 box_slot=2 used_slot=3
+[step 071] FAIL:hand_slot slot=3 size=3 want=TIME_026 got=BE_726 hand=['BE_086', 'TIME_026', 'BE_726']
+[engine]   [?] ���Ӳ� 2 �뿨�� TIME_026 ��ͻ�����ÿ������ڲ� 3
+[step 076] slot_from_card card=TIME_026 box_slot=2 used_slot=3
+[step 077] FAIL:hand_slot slot=3 size=3 want=TIME_026 got=BE_726 hand=['BE_086', 'TIME_026', 'BE_726']
+[engine]   [?] ���Ӳ� 2 �뿨�� TIME_026 ��ͻ�����ÿ������ڲ� 3
+[step 082] slot_from_card card=TIME_026 box_slot=2 used_slot=3
+[step 083] FAIL:hand_slot slot=3 size=3 want=TIME_026 got=BE_726 hand=['BE_086', 'TIME_026', 'BE_726']

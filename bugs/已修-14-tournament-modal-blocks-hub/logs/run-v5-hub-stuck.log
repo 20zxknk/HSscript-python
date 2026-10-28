@@ -1,0 +1,26 @@
+=== 配置：模式=standard 卡组位=1(点3次) 匹配超时=120s 上限=600s 局数上限=1 ===
+=== 推荐桥：<SCRIPT_MAIN>\recommendation_server.py
+[mouse] 行为克隆：<REPO>\data\move_templates.json
+[run] 客户区 1905x982 比例=1.940
+[rec] 录制目录: <REPO>\test\v5
+[rec] 鼠标 LL 钩子: 已挂上
+[run] 动作日志: logs\actions-20261027_105848.jsonl
+[bridge] 握手期状态行: status=loading
+[run] 桥已提前挂载
+[run] 进对局前界面: mode=LOGIN
+[nav] to_hub: mode=LOGIN 第1次 (剩 120s)
+[nav] 登录页第 1 次：点右侧中间
+[nav] 登录页第 2 次：点右侧中间
+[nav] 登录页第 3 次：点右侧中间
+=== 进对战（第 1 次, 模式=standard 卡组位=1, 当前段 0）===
+[nav] go_tournament: mode=HUB 第1次 seq_done=False (剩 240s)
+[nav] HUB 卡住 4 次（这个界面没有可点的返回，继续等）
+[nav] go_tournament: mode=HUB 第9次 seq_done=False (剩 201s)
+[nav] HUB 卡住 4 次（这个界面没有可点的返回，继续等）
+[nav] HUB 卡住 4 次（这个界面没有可点的返回，继续等）
+[nav] go_tournament: mode=HUB 第17次 seq_done=False (剩 178s)
+[nav] HUB 卡住 4 次（这个界面没有可点的返回，继续等）
+[nav] HUB 卡住 4 次（这个界面没有可点的返回，继续等）
+[nav] go_tournament: mode=HUB 第25次 seq_done=False (剩 155s)
+[nav] HUB 卡住 4 次（这个界面没有可点的返回，继续等）
+[nav] HUB 卡住 4 次（这个界面没有可点的返回，继续等）

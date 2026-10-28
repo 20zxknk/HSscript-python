@@ -1,0 +1,42 @@
+# 运行产物（不进仓库）
+logs/
+.captures/
+records/
+__pycache__/
+*.py[cod]
+config.toml
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+# 录制产物（--record 生成的原始数据，不进仓库）
+test/*.jsonl
+test/powerlog_story.md
+
+# bug 目录里的原始日志要进仓库（\logs/\ 是全局忽略，这里开例外）
+!bugs/*/logs/
+!bugs/*/logs/**
+.coverage
+coverage.xml
+# 训练出来的模型太大，不进仓库
+data/*.pt
+data/card_images/
+
+data/*.joblib
+!data/move_model.joblib
+
+# Obsidian 的个人配置（vault 设置、插件开关）不进仓库
+.obsidian/
+
+# 工具缓存
+.ruff_cache/
+.mypy_cache/
+
+# 旧的一次性录制目录（test2..test15、test-old 这类），注意别写成 test* 会连 tests/ 一起忽略
+/test[0-9]*/
+!/test/
+
+
+# 每局的录制目录（原始日志很大）；被引用的证据会复制进 bugs/<条目>/logs/ 或 evidence/
+/test/*/
+/test/loop.log

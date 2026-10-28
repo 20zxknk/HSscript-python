@@ -1,0 +1,11 @@
+D 22:51:37.6538535 GameState.OnEntityChoices() - id=1 playerId=1 queued
+D 22:51:37.6673935 GameState.OnEntityChoices() - id=2 playerId=2 queued
+D 22:51:37.6771851 GameState.DebugPrintPower() - CREATE_GAME
+D 22:51:37.6771851 GameState.DebugPrintPower() -     TAG_CHANGE Entity=1 tag=NEXT_STEP value=BEGIN_MULLIGAN 
+D 22:51:37.6771851 GameState.DebugPrintPower() - TAG_CHANGE Entity=GameEntity tag=STEP value=BEGIN_MULLIGAN 
+D 22:51:37.6771851 PowerTaskList.DebugPrintPower() -     CREATE_GAME
+D 22:51:40.6079954 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=NEXT_STEP value=BEGIN_MULLIGAN 
+D 22:51:40.9170962 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=GameEntity tag=STEP value=BEGIN_MULLIGAN 
+D 22:51:36.8556543 LoadingScreen.OnScenePreUnload() - prevMode=TOURNAMENT nextMode=GAMEPLAY m_phase=INVALID
+D 22:51:36.8556543 LoadingScreen.OnSceneUnloaded() - prevMode=TOURNAMENT nextMode=GAMEPLAY m_phase=WAITING_FOR_SCENE_UNLOAD
+D 22:51:40.3927749 LoadingScreen.OnSceneLoaded() - prevMode=TOURNAMENT currMode=GAMEPLAY

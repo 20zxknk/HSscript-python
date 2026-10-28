@@ -1,0 +1,12 @@
+原始文件：
+  run-probe1-author.log        test/probe1/run.log
+  run-probe2-author.log        test/probe2/run.log
+  run-probe3-sendinput.log     test/probe3/run.log
+  probe-dll-only.log            只加载 DLL 40 秒
+  probe-limit-false.log         limitMouseRange(False)
+  probe-limit-true.log          limitMouseRange(True)
+  probe-one-move.log            一次真实移动
+  probe-one-click.log           一次真实点击
+  probe-40-clicks.log           连续 40 次真实点击
+  run-t4-author-mulligan-then-died.log   test/t4/run.log（作者库，换牌后死）
+  run-t5-sendinput-playing.log           test/t5/run.log（sendinput，同一套流程在打）

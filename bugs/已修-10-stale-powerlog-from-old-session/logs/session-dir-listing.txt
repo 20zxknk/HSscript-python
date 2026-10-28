@@ -1,0 +1,10 @@
+本次会话目录 <HS_LOGS>\Hearthstone_2026_10_27_00_49_53 的内容：
+  Decks.log                        574 字节  00:50:00
+  Downloader.log                    36 字节  00:49:55
+  ExceptionReporter.log            258 字节  00:49:54
+  Hearthstone.log                 6078 字节  00:49:53
+  Login.log                        197 字节  00:49:57
+  LuckyDraw.log                    928 字节  00:50:15
+  Spj.log                           92 字节  00:50:00
+
+没有 Power.log（上一份 Power.log 在 Hearthstone_2026_10_26_18_54_42，最后写入 19:26:10）。

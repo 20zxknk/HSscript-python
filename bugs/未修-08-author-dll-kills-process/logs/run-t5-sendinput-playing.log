@@ -1,0 +1,96 @@
+=== 配置：模式=standard 卡组位=1(点3次) 匹配超时=120s 上限=600s 局数上限=1 ===
+=== 推荐桥：<SCRIPT_MAIN>\recommendation_server.py
+[run] 客户区 1905x982 比例=1.940
+[rec] 录制目录: <REPO>\test\t5
+[rec] 鼠标 LL 钩子: 已挂上
+[run] 动作日志: logs\actions-20261027_010611.jsonl
+[bridge] 握手期状态行: status=loading
+[run] 桥已提前挂载
+[powerlog] 按括号落位: eid=57 DECK1 -> HAND1
+[powerlog] 按括号落位: eid=63 DECK2 -> HAND2
+[run] 进对局前界面: mode=TOURNAMENT
+[run] 已在对战/卡组页，直接开始匹配（不回主界面）
+=== 进对战（第 1 次, 模式=standard 卡组位=1, 当前段 2）===
+[nav] go_tournament: mode=TOURNAMENT 第1次 seq_done=False (剩 240s)
+[nav] 点击切换模式按钮
+[nav] 切换至 standard 模式
+[nav] 模式校验 -> None
+[nav] 选择套牌：第 1 号位，点 3 次
+[nav] 开始匹配
+[nav] go_tournament: mode=TOURNAMENT 第9次 seq_done=True (剩 225s)
+[nav] 匹配中：点一次「确定」（可能弹了开赛错误）
+[nav] go_tournament: mode=TOURNAMENT 第17次 seq_done=True (剩 216s)
+[nav] 匹配中：点一次「确定」（可能弹了开赛错误）
+[nav] 已进入对局
+[run] 新对局已开始（段 2->3，换牌中）
+[run] 日志已钉死: <HS_LOGS>\Hearthstone_2026_10_27_00_58_35\Power.log
+[powerlog] 按括号落位: eid=57 DECK1 -> HAND1
+[powerlog] 按括号落位: eid=63 DECK2 -> HAND2
+[run] 钉死后重建: 实体=72 my_id=1 turn=0 hand=3
+[rec] Power.log 叙述起点偏移: 312077
+[engine] 已就绪（窗口 + 桥 + 同步层）
+[engine] 动作前重查(换牌前探测) 耗时0ms optionId=-1 turnNum=1 n=1 → mulligan  手None 场None 目标=None:None/None
+[engine] 等开局动画 20s
+[engine] 起手 3 张（换牌面板 3 槽布局）
+[engine] 动作前重查(换牌前) 耗时0ms optionId=-1 turnNum=1 n=1 → mulligan  手None 场None 目标=None:None/None
+[engine] 按盒子换牌: 替换 [1, 2, 3]（起手 3 张）
+[run] 换牌完成
+[engine] 我的回合 turn=1（GameTURN=1）
+[engine] 动作前重查(主循环) 耗时1ms optionId=1 turnNum=1 n=1 → end  手None 场None 目标=None:None/None
+[step 001] ok:my_turn turn=1 current_player=1 my_id=1 options_seq=3676 turn_seq=0
+[step 002] plan_A action=end card=None box_hand=None box_board=None box_target=None:None turn=1 mine=True seq=3802 ver=6 hand=['CORE_ULD_165', 'CORE_SW_088', 'CORE_EX1_310', 'CORE_WON_096'] board=[]
+[step 003] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "end", "hand_position": null, "board_position": null, "target": null, "target_position": null, "target_card_id": null, "card_name": null, "card_id": null, "ai_win_rate": null, "mulligan_positions": null, "option_id": 1, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "end_turn"}], "error": "", "optionId": 1, "status": 2, "turnNum": 1}, "timestamp": "2026-10-27T01:07:16.184623"}
+[step 004] clicked n=1 clicks=[{'tag': 'lclick', 'client': [1496, 453], 'screen': [1802, 714]}] resolved={}
+[step 005] swallowed action=end card=None evidence=回合仍在我手上 before=3802 after=3903 clicks=[{'tag': 'lclick', 'client': [1496, 453], 'screen': [1802, 714]}]
+[engine] 动作前重查(主循环) 耗时0ms optionId=1 turnNum=1 n=1 → end  手None 场None 目标=None:None/None
+[step 006] ok:my_turn turn=1 current_player=1 my_id=1 options_seq=3676 turn_seq=0
+[step 007] plan_A action=end card=None box_hand=None box_board=None box_target=None:None turn=1 mine=True seq=3903 ver=9 hand=['CORE_ULD_165', 'CORE_SW_088', 'CORE_EX1_310', 'CORE_WON_096'] board=[]
+[step 008] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "end", "hand_position": null, "board_position": null, "target": null, "target_position": null, "target_card_id": null, "card_name": null, "card_id": null, "ai_win_rate": null, "mulligan_positions": null, "option_id": 1, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "end_turn"}], "error": "", "optionId": 1, "status": 2, "turnNum": 1}, "timestamp": "2026-10-27T01:07:23.049006"}
+[step 009] clicked n=1 clicks=[{'tag': 'lclick', 'client': [1496, 453], 'screen': [1802, 714]}] resolved={}
+[step 010] ok:action_effect action=end card=None evidence=回合已交出 before=3903 after=4091 clicks=[{'tag': 'lclick', 'client': [1496, 453], 'screen': [1802, 714]}]
+[engine] 等待中 mode=GAMEPLAY turn=1 cur=2 me=1 hand=4 board=0
+[engine] 等待中 mode=GAMEPLAY turn=1 cur=2 me=1 hand=4 board=0
+[engine] 我的回合 turn=2（GameTURN=3）
+[engine] 推荐已过期：盒子 turnNum=1 < 我方回合=2（GameEntity.TURN=3）→ 不执行，继续要新推荐
+[step 011] stale_rec box_turn=1 my_turn=2 game_turn=3 option_id=1 action=end card=None
+[engine] 动作前重查(主循环) 耗时0ms optionId=5 turnNum=2 n=1 → play CORE_WON_096 手4 场1 目标=None:None/None
+[step 012] ok:my_turn turn=2 current_player=1 my_id=1 options_seq=4338 turn_seq=4266
+[step 013] plan_A action=play card=CORE_WON_096 box_hand=4 box_board=1 box_target=None:None turn=2 mine=True seq=4338 ver=15 hand=['CORE_ULD_165', 'CORE_SW_088', 'CORE_EX1_310', 'CORE_WON_096', 'CORE_SW_088'] board=[]
+[step 014] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "play", "hand_position": 4, "board_position": 1, "target": null, "target_position": null, "target_card_id": null, "card_name": "黑市摊贩", "card_id": "CORE_WON_096", "ai_win_rate": 56, "mulligan_positions": null, "option_id": 5, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "play_minion", "card": {"ZONE_POSITION": 4, "cardId": "CORE_WON_096", "cardName": "黑市摊贩"}, "position": 1, "using_disguised": 0}], "error": "", "optionId": 5, "status": 2, "turnNum": 2}, "timestamp": "2026-10-27T01:07:41.090926"}
+[step 015] ok:hand_slot_bound slot=4 size=5 card=CORE_WON_096
+[step 016] ok:hand_size hand_size=5 slot=4
+[step 017] ok:card_usable card=CORE_WON_096 eid=17 error=NONE slot=4 src=option_map
+[engine]   手牌[5] 1:CORE_ULD_165 2:CORE_SW_088 3:CORE_EX1_310 4:CORE_WON_096 5:CORE_SW_088 | 盒子槽=4 cardId=CORE_WON_096 -> 用槽 4/5
+[step 018] ok:board_index index=0 size=0
+[engine]   场面[0] 盒子上场位=1 -> 落点槽 1
+[step 019] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [996, 929], 'screen': [1302, 1190]}, {'tag': 'mlc_end', 'client': [1015, 540], 'screen': [1321, 801]}] resolved={'hand_slot': 4, 'hand_size': 5, 'board_index': 0, 'board_size': 0}
+[step 020] swallowed action=play card=CORE_WON_096 evidence=牌还在手上 before=4338 after=4566 clicks=[{'tag': 'mlc_start', 'client': [996, 929], 'screen': [1302, 1190]}, {'tag': 'mlc_end', 'client': [1015, 540], 'screen': [1321, 801]}]
+[engine] 动作前重查(主循环) 耗时0ms optionId=5 turnNum=2 n=1 → play CORE_WON_096 手4 场1 目标=None:None/None
+[step 021] ok:my_turn turn=2 current_player=1 my_id=1 options_seq=4338 turn_seq=4266
+[step 022] plan_A action=play card=CORE_WON_096 box_hand=4 box_board=1 box_target=None:None turn=2 mine=True seq=4566 ver=16 hand=['CORE_ULD_165', 'CORE_SW_088', 'CORE_EX1_310', 'CORE_WON_096', 'CORE_SW_088'] board=[]
+[step 023] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "play", "hand_position": 4, "board_position": 1, "target": null, "target_position": null, "target_card_id": null, "card_name": "黑市摊贩", "card_id": "CORE_WON_096", "ai_win_rate": 66, "mulligan_positions": null, "option_id": 5, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "play_minion", "card": {"ZONE_POSITION": 4, "cardId": "CORE_WON_096", "cardName": "黑市摊贩"}, "position": 1, "using_disguised": 0}], "error": "", "optionId": 5, "status": 2, "turnNum": 2}, "timestamp": "2026-10-27T01:07:49.445937"}
+[step 024] ok:hand_slot_bound slot=4 size=5 card=CORE_WON_096
+[step 025] ok:hand_size hand_size=5 slot=4
+[step 026] ok:card_usable card=CORE_WON_096 eid=17 error=NONE slot=4 src=option_map
+[engine]   手牌[5] 1:CORE_ULD_165 2:CORE_SW_088 3:CORE_EX1_310 4:CORE_WON_096 5:CORE_SW_088 | 盒子槽=4 cardId=CORE_WON_096 -> 用槽 4/5
+[step 027] ok:board_index index=0 size=0
+[engine]   场面[0] 盒子上场位=1 -> 落点槽 1
+[step 028] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [996, 929], 'screen': [1302, 1190]}, {'tag': 'mlc_end', 'client': [1015, 540], 'screen': [1321, 801]}] resolved={'hand_slot': 4, 'hand_size': 5, 'board_index': 0, 'board_size': 0}
+[powerlog] tag=CARDTYPE 的 value 不是整数：'LOCATION'（累计 1）
+[step 029] swallowed action=play card=CORE_WON_096 evidence=选择面板还开着 before=4566 after=4760 clicks=[{'tag': 'mlc_start', 'client': [996, 929], 'screen': [1302, 1190]}, {'tag': 'mlc_end', 'client': [1015, 540], 'screen': [1321, 801]}]
+[engine] 动作前重查(主循环) 耗时0ms optionId=-1 turnNum=2 n=1 → unknown TLC_449 手None 场None 目标=board:3/TLC_449
+[step 030] ok:choice_open n=3 turn=2 current_player=1 my_id=1
+[step 031] plan_A action=unknown card=TLC_449 box_hand=None box_board=None box_target=board:3 turn=2 mine=True seq=4760 ver=20 hand=['CORE_ULD_165', 'CORE_SW_088', 'CORE_EX1_310', 'CORE_SW_088'] board=['CORE_WON_096']
+[step 032] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "unknown", "hand_position": null, "board_position": null, "target": "board", "target_position": 3, "target_card_id": "TLC_449", "card_name": "血瓣群系", "card_id": "TLC_449", "ai_win_rate": 66, "mulligan_positions": null, "option_id": -1, "choice_id": 3, "target_card_name": "血瓣群系", "raw_action": "choice"}], "raw_rec": {"choiceId": 3, "data": [{"actionName": "choice", "target": {"ZONE_POSITION": 3, "cardId": "TLC_449", "cardName": "血瓣群系"}}], "error": "", "optionId": -1, "status": 2, "turnNum": 2}, "timestamp": "2026-10-27T01:07:57.413241"}
+[engine]   选择面板[3] 候选 ['CAP_402', 'TLC_249', 'TLC_449']；盒子要 TLC_449 -> 第 3 个
+[step 033] clicked n=1 clicks=[{'tag': 'lclick', 'client': [1267, 463], 'screen': [1573, 724]}] resolved={}
+[step 034] swallowed action=unknown card=TLC_449 evidence=无游戏侧证据 before=4760 after=4852 clicks=[{'tag': 'lclick', 'client': [1267, 463], 'screen': [1573, 724]}]
+[engine] 动作前重查(主循环) 耗时0ms optionId=6 turnNum=2 n=1 → end  手None 场None 目标=None:None/None
+[step 035] ok:my_turn turn=2 current_player=1 my_id=1 options_seq=4828 turn_seq=4266
+[step 036] plan_A action=end card=None box_hand=None box_board=None box_target=None:None turn=2 mine=True seq=4852 ver=23 hand=['CORE_ULD_165', 'CORE_SW_088', 'CORE_EX1_310', 'CORE_SW_088', 'TLC_449'] board=['CORE_WON_096']
+[step 037] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "end", "hand_position": null, "board_position": null, "target": null, "target_position": null, "target_card_id": null, "card_name": null, "card_id": null, "ai_win_rate": 66, "mulligan_positions": null, "option_id": 6, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "end_turn"}], "error": "", "optionId": 6, "status": 2, "turnNum": 2}, "timestamp": "2026-10-27T01:08:03.995411"}
+[step 038] clicked n=1 clicks=[{'tag': 'lclick', 'client': [1496, 453], 'screen': [1802, 714]}] resolved={}
+[powerlog] 按括号前进: eid=59 HAND -> PLAY（tag=NUM_TURNS_IN_PLAY value=2）
+[step 039] ok:action_effect action=end card=None evidence=回合已交出 before=4852 after=5060 clicks=[{'tag': 'lclick', 'client': [1496, 453], 'screen': [1802, 714]}]
+[engine] 等待中 mode=GAMEPLAY turn=2 cur=2 me=1 hand=5 board=1
+[engine] 等待中 mode=GAMEPLAY turn=2 cur=2 me=1 hand=5 board=1

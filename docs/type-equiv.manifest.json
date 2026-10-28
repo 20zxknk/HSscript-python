@@ -1,0 +1,18 @@
+{
+  "comment": "文档里这些代码块必须与源码逐字一致；scripts/verify_type_equiv.py --check 会比对，--write 会用源码覆盖。改源码不改文档 -> 门禁红。",
+  "entries": [
+    {"doc": "docs/reference/types.md", "symbol": "GameState", "source": "src/hspy/input/state.py", "projection": "fields"},
+    {"doc": "docs/reference/types.md", "symbol": "Entity", "source": "src/hspy/input/state.py"},
+    {"doc": "docs/reference/types.md", "symbol": "Plan", "source": "src/hspy/decision/box.py"},
+    {"doc": "docs/reference/types.md", "symbol": "GameRect", "source": "src/hspy/geometry.py"},
+    {"doc": "docs/reference/coords.md", "symbol": "DISCOVER_3", "source": "src/hspy/coords.py"},
+    {"doc": "docs/reference/coords.md", "symbol": "DISCOVER_4", "source": "src/hspy/coords.py"},
+    {"doc": "docs/reference/coords.md", "symbol": "CHOICE_GENERAL_4", "source": "src/hspy/coords.py"},
+    {"doc": "docs/reference/coords.md", "symbol": "MY_HAND", "source": "src/hspy/coords.py"},
+    {"doc": "docs/reference/coords.md", "symbol": "CHOOSE_ONE", "source": "src/hspy/coords.py"},
+    {"doc": "docs/reference/coords.md", "symbol": "CONTENT_RATIO", "source": "src/hspy/geometry.py"},
+    {"doc": "docs/reference/mouse.md", "symbol": "PAUSE_STEP", "source": "src/hspy/output/mouse.py"},
+    {"doc": "docs/reference/mouse.md", "symbol": "STEP_SLEEP_MS", "source": "src/hspy/output/mouse.py"},
+    {"doc": "docs/reference/mouse.md", "symbol": "STEP_PX_AT_DEFAULT", "source": "src/hspy/output/mouse.py"}
+  ]
+}

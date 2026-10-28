@@ -1,0 +1,128 @@
+=== 配置：模式=standard 卡组位=1(点3次) 匹配超时=120s 上限=300s 局数上限=1 ===
+=== 推荐桥：<SCRIPT_MAIN>\recommendation_server.py
+[run] 客户区 1905x982 比例=1.940
+[rec] 录制目录: <REPO>\test\probe3
+[rec] 鼠标 LL 钩子: 已挂上
+[run] 动作日志: logs\actions-20261026_191212.jsonl
+[bridge] 握手期状态行: status=loading
+[run] 桥已提前挂载
+[powerlog] 按括号前进: eid=47 HAND -> PLAY（tag=1196 value=0）
+[powerlog] tag=CARDTYPE 的 value 不是整数：'ENCHANTMENT'（累计 1）
+[powerlog] 按括号前进: eid=40 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=62 HAND -> PLAY（tag=1196 value=0）
+[powerlog] tag=CARDTYPE 的 value 不是整数：'ENCHANTMENT'（累计 2）
+[powerlog] tag=CARDTYPE 的 value 不是整数：'ENCHANTMENT'（累计 3）
+[powerlog] 按括号前进: eid=55 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=47 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=39 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=59 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=61 HAND -> PLAY（tag=1196 value=0）
+[run] 进对局前界面: mode=GAMEPLAY
+[nav] to_hub: mode=GAMEPLAY 第1次 (剩 120s)
+[nav] 当前正在对局中：不自动认输（要认输请在命令行加 --concede）
+=== 进对战（第 1 次, 模式=standard 卡组位=1, 当前段 4）===
+[nav] go_tournament: mode=GAMEPLAY 第1次 seq_done=False (剩 240s)
+[nav] 已进入对局
+[powerlog] 本局日志留档: <REPO>\records\20261026_191229_seg4.log
+[powerlog] 本局有 6 条 tag 数值解析失败（见上）
+[run] 没等到新对局（killed=True），点继续退出后重试
+[powerlog] 按括号前进: eid=47 HAND -> PLAY（tag=1196 value=0）
+[powerlog] tag=CARDTYPE 的 value 不是整数：'ENCHANTMENT'（累计 1）
+[powerlog] 按括号前进: eid=40 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=62 HAND -> PLAY（tag=1196 value=0）
+[powerlog] tag=CARDTYPE 的 value 不是整数：'ENCHANTMENT'（累计 2）
+[powerlog] tag=CARDTYPE 的 value 不是整数：'ENCHANTMENT'（累计 3）
+[powerlog] 按括号前进: eid=55 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=47 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=39 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=59 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=61 HAND -> PLAY（tag=1196 value=0）
+=== 进对战（第 2 次, 模式=standard 卡组位=1, 当前段 4）===
+[nav] go_tournament: mode=GAMEPLAY 第1次 seq_done=False (剩 240s)
+[nav] 已进入对局
+[run] 没等到新对局（killed=True），点继续退出后重试
+[powerlog] 按括号前进: eid=47 HAND -> PLAY（tag=1196 value=0）
+[powerlog] tag=CARDTYPE 的 value 不是整数：'ENCHANTMENT'（累计 1）
+[powerlog] 按括号前进: eid=40 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=62 HAND -> PLAY（tag=1196 value=0）
+[powerlog] tag=CARDTYPE 的 value 不是整数：'ENCHANTMENT'（累计 2）
+[powerlog] tag=CARDTYPE 的 value 不是整数：'ENCHANTMENT'（累计 3）
+[powerlog] 按括号前进: eid=55 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=47 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=39 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=59 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=61 HAND -> PLAY（tag=1196 value=0）
+=== 进对战（第 3 次, 模式=standard 卡组位=1, 当前段 4）===
+[nav] go_tournament: mode=TOURNAMENT 第1次 seq_done=False (剩 240s)
+[nav] 点击切换模式按钮
+[nav] 切换至 standard 模式
+[nav] 模式校验 -> None
+[nav] 选择套牌：第 1 号位，点 3 次
+[nav] 开始匹配
+[nav] go_tournament: mode=TOURNAMENT 第9次 seq_done=True (剩 225s)
+[nav] 匹配中：点一次「确定」（可能弹了开赛错误）
+[nav] go_tournament: mode=TOURNAMENT 第17次 seq_done=True (剩 216s)
+[nav] 匹配中：点一次「确定」（可能弹了开赛错误）
+[nav] 已进入对局
+[run] 新对局已开始（段 4->5，换牌中）
+[run] 日志已钉死: <HS_LOGS>\Hearthstone_2026_10_26_18_54_42\Power.log
+[powerlog] 按括号前进: eid=47 HAND -> PLAY（tag=1196 value=0）
+[powerlog] tag=CARDTYPE 的 value 不是整数：'ENCHANTMENT'（累计 1）
+[powerlog] 按括号前进: eid=40 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=62 HAND -> PLAY（tag=1196 value=0）
+[powerlog] tag=CARDTYPE 的 value 不是整数：'ENCHANTMENT'（累计 2）
+[powerlog] tag=CARDTYPE 的 value 不是整数：'ENCHANTMENT'（累计 3）
+[powerlog] 按括号前进: eid=55 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=47 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=39 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=59 HAND -> PLAY（tag=1196 value=0）
+[powerlog] 按括号前进: eid=61 HAND -> PLAY（tag=1196 value=0）
+[run] 钉死后重建: 实体=80 my_id=2 turn=0 hand=0
+[rec] Power.log 叙述起点偏移: 1437128
+[engine] 已就绪（窗口 + 桥 + 同步层）
+[engine] 动作前重查(换牌前探测) 耗时0ms optionId=-1 turnNum=1 n=1 → mulligan  手None 场None 目标=None:None/None
+[engine] 等开局动画 20s
+[engine] 起手 4 张（换牌面板 4 槽布局）
+[engine] 动作前重查(换牌前) 耗时0ms optionId=-1 turnNum=1 n=1 → mulligan  手None 场None 目标=None:None/None
+[engine] 按盒子换牌: 替换 [2, 3]（起手 4 张）
+[run] 换牌完成
+[powerlog] 按括号落位: eid=51 DECK1 -> HAND1
+[powerlog] 按括号落位: eid=68 DECK4 -> HAND4
+[engine] 对手回合 turn=1（GameTURN=1）
+[engine] 等待中 mode=GAMEPLAY turn=1 cur=1 me=2 hand=4 board=0
+[engine] 等待中 mode=GAMEPLAY turn=1 cur=1 me=2 hand=4 board=0
+[powerlog] 按括号前进: eid=44 HAND -> PLAY（tag=1196 value=0）
+[engine] 动作前重查(主循环) 耗时0ms optionId=-1 turnNum=1 n=0 → 无方案
+[engine] 动作前重查(主循环) 耗时0ms optionId=3 turnNum=2 n=1 → play CATA_210 手1 场1 目标=None:None/None
+[step 001] ok:my_turn turn=1 current_player=2 my_id=2 options_seq=13742 turn_seq=13535
+[step 002] plan_A action=play card=CATA_210 box_hand=1 box_board=1 box_target=None:None turn=1 mine=True seq=13755 ver=29 hand=['CATA_210', 'TIME_029', 'CORE_SCH_713', 'TIME_025', 'GAME_005', 'TIME_026'] board=[]
+[step 003] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "play", "hand_position": 1, "board_position": 1, "target": null, "target_position": null, "target_card_id": null, "card_name": "暮光龙卵", "card_id": "CATA_210", "ai_win_rate": 54, "mulligan_positions": null, "option_id": 3, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "play_minion", "card": {"ZONE_POSITION": 1, "cardId": "CATA_210", "cardName": "暮光龙卵"}, "position": 1, "using_disguised": 0}], "error": "", "optionId": 3, "status": 2, "turnNum": 2}, "timestamp": "2026-10-26T19:15:48.319298"}
+[step 004] ok:hand_slot_bound slot=1 size=6 card=CATA_210
+[step 005] ok:hand_size hand_size=6 slot=1
+[step 006] ok:card_usable card=CATA_210 eid=51 error=NONE slot=1 src=option_map
+[engine]   手牌[6] 1:CATA_210 2:TIME_029 3:CORE_SCH_713 4:TIME_025 5:GAME_005 6:TIME_026 | 盒子槽=1 cardId=CATA_210 -> 用槽 1/6
+[step 007] ok:board_index index=0 size=0
+[engine]   场面[0] 盒子上场位=1 -> 落点槽 1
+[step 008] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [700, 939], 'screen': [1006, 1200]}, {'tag': 'mlc_end', 'client': [1015, 540], 'screen': [1321, 801]}] resolved={'hand_slot': 1, 'hand_size': 6, 'board_index': 0, 'board_size': 0}
+[step 009] swallowed action=play card=CATA_210 evidence=牌还在手上 before=13755 after=13755 clicks=[{'tag': 'mlc_start', 'client': [700, 939], 'screen': [1006, 1200]}, {'tag': 'mlc_end', 'client': [1015, 540], 'screen': [1321, 801]}]
+[engine] 动作前重查(主循环) 耗时0ms optionId=3 turnNum=2 n=1 → play CATA_210 手1 场1 目标=None:None/None
+[step 010] ok:my_turn turn=1 current_player=2 my_id=2 options_seq=13742 turn_seq=13535
+[step 011] plan_A action=play card=CATA_210 box_hand=1 box_board=1 box_target=None:None turn=1 mine=True seq=13755 ver=29 hand=['CATA_210', 'TIME_029', 'CORE_SCH_713', 'TIME_025', 'GAME_005', 'TIME_026'] board=[]
+[step 012] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "play", "hand_position": 1, "board_position": 1, "target": null, "target_position": null, "target_card_id": null, "card_name": "暮光龙卵", "card_id": "CATA_210", "ai_win_rate": 54, "mulligan_positions": null, "option_id": 3, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "play_minion", "card": {"ZONE_POSITION": 1, "cardId": "CATA_210", "cardName": "暮光龙卵"}, "position": 1, "using_disguised": 0}], "error": "", "optionId": 3, "status": 2, "turnNum": 2}, "timestamp": "2026-10-26T19:15:55.560733"}
+[step 013] ok:hand_slot_bound slot=1 size=6 card=CATA_210
+[step 014] ok:hand_size hand_size=6 slot=1
+[step 015] ok:card_usable card=CATA_210 eid=51 error=NONE slot=1 src=option_map
+[engine]   手牌[6] 1:CATA_210 2:TIME_029 3:CORE_SCH_713 4:TIME_025 5:GAME_005 6:TIME_026 | 盒子槽=1 cardId=CATA_210 -> 用槽 1/6
+[step 016] ok:board_index index=0 size=0
+[engine]   场面[0] 盒子上场位=1 -> 落点槽 1
+[step 017] clicked n=2 clicks=[{'tag': 'mlc_start', 'client': [700, 939], 'screen': [1006, 1200]}, {'tag': 'mlc_end', 'client': [1015, 540], 'screen': [1321, 801]}] resolved={'hand_slot': 1, 'hand_size': 6, 'board_index': 0, 'board_size': 0}
+[step 018] ok:action_effect action=play card=CATA_210 evidence=PLAY块 before=13755 after=13802 clicks=[{'tag': 'mlc_start', 'client': [700, 939], 'screen': [1006, 1200]}, {'tag': 'mlc_end', 'client': [1015, 540], 'screen': [1321, 801]}]
+[engine] 动作前重查(主循环) 耗时0ms optionId=4 turnNum=2 n=1 → end  手None 场None 目标=None:None/None
+[step 019] ok:my_turn turn=1 current_player=2 my_id=2 options_seq=13802 turn_seq=13535
+[step 020] plan_A action=end card=None box_hand=None box_board=None box_target=None:None turn=1 mine=True seq=13802 ver=31 hand=['TIME_029', 'CORE_SCH_713', 'TIME_025', 'GAME_005', 'TIME_026'] board=['CATA_210']
+[step 021] box_rec_raw n=1 raw={"plans": [{"plan": "A", "action": "end", "hand_position": null, "board_position": null, "target": null, "target_position": null, "target_card_id": null, "card_name": null, "card_id": null, "ai_win_rate": 54, "mulligan_positions": null, "option_id": 4, "choice_id": -1}], "raw_rec": {"choiceId": -1, "data": [{"actionName": "end_turn"}], "error": "", "optionId": 4, "status": 2, "turnNum": 2}, "timestamp": "2026-10-26T19:16:00.366105"}
+[step 022] clicked n=1 clicks=[{'tag': 'lclick', 'client': [1496, 453], 'screen': [1802, 714]}] resolved={}
+[step 023] ok:action_effect action=end card=None evidence=回合已交出 before=13802 after=14048 clicks=[{'tag': 'lclick', 'client': [1496, 453], 'screen': [1802, 714]}]
+[engine] 对手回合 turn=2（GameTURN=3）
+[engine] 等待中 mode=GAMEPLAY turn=2 cur=1 me=2 hand=4 board=1
+[engine] 等待中 mode=GAMEPLAY turn=2 cur=1 me=2 hand=4 board=1

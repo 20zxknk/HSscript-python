@@ -1,0 +1,12 @@
+13:35:41 那一步（13_32_40 的 Power.log，第 5966 行附近）：
+  DebugPrintOptions 声明的槽位：1 BE_094, 2 CATA_725, 3 GAME_005(幸运币),
+                             4 BE_729, 5 BE_729, 6 CATA_725, 7 CORE_SCH_713,
+                             8 BE_726 —— 共 8 个可选槽，另有 TLC_451 在 zonePos=9
+  实体表 zone=HAND 且有卡号：9 个（含 GAME_005）
+  旧 my_hand 列表：8 个（GAME_005 被 `cardId.startswith('GAME_')` 排除）
+  → hand_size_hint 仍按 9 排布局，但列表里没有币：槽位与列表整体错开一格。
+
+卡池判定（data/card_meta.json.gz）：
+  BE_207e  ENCHANTMENT（附魔，带攻血，旧 is_minion 会算成随从）
+  CATA_492 LOCATION（地标，占格子；旧 _is_board_card 会算进随从数）
+  GAME_005 SPELL（幸运币，是手牌里的真卡）

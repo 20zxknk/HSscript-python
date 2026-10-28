@@ -1,0 +1,9 @@
+#!/bin/sh
+# 推送前门禁：跑不需要真机的全部测试。
+cd "$(git rev-parse --show-toplevel)" || exit 1
+python -X utf8 scripts/check_adr.py || exit 1
+python -X utf8 scripts/verify_type_equiv.py --check || exit 1
+python -X utf8 scripts/bug_index.py --check || exit 1
+python -X utf8 scripts/run_all_tests.py || exit 1
+python -X utf8 scripts/coverage_report.py --min 42 || exit 1
+echo "OK 推送前检查通过"

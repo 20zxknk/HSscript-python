@@ -1,0 +1,20 @@
+D 10:25:18.5610695 GameState.SendChoices() - id=11 ChoiceType=GENERAL
+D 10:25:18.5610695 GameState.SendChoices() -   m_chosenEntities[0]=[entityName=克苏恩的凝视 id=223 zone=SETASIDE zonePos=0 cardId=BE_013t3 player=2]
+D 10:25:18.7838341 GameState.DebugPrintEntitiesChosen() - id=11 Player=玩家#0000 EntitiesCount=1
+D 10:25:18.7838341 GameState.DebugPrintEntitiesChosen() -   Entities[0]=[entityName=克苏恩的凝视 id=223 zone=SETASIDE zonePos=0 cardId=BE_013t3 player=2]
+D 10:25:18.7838341 ChoiceCardMgr.WaitThenHideChoicesFromPacket() - id=11 END WAIT
+D 10:25:18.8453525 GameState.DebugPrintPowerList() - Count=1
+D 10:25:18.8453525 GameState.DebugPrintPower() - TAG_CHANGE Entity=[entityName=克苏恩的凝视 id=223 zone=SETASIDE zonePos=0 cardId=BE_013t3 player=2] tag=REVEALED value=1 
+D 10:25:18.8453525 PowerTaskList.DebugDump() - ID=739 ParentID=0 PreviousID=738 TaskCount=1
+D 10:25:18.8453525 PowerTaskList.DebugDump() - Block Start=(null)
+D 10:25:18.8453525 PowerTaskList.DebugPrintPower() -     TAG_CHANGE Entity=[entityName=克苏恩的凝视 id=223 zone=SETASIDE zonePos=0 cardId=BE_013t3 player=2] tag=REVEALED value=1 
+D 10:25:18.8453525 PowerTaskList.DebugDump() - Block End=(null)
+D 10:25:18.8453525 PowerProcessor.PrepareHistoryForCurrentTaskList() - m_currentTaskList=739
+D 10:25:18.8453525 PowerProcessor.EndCurrentTaskList() - m_currentTaskList=739
+D 10:25:18.9353157 GameState.DebugPrintEntityChoices() - id=12 Player=玩家#0000 TaskList= ChoiceType=TARGET CountMin=1 CountMax=1
+D 10:25:18.9353157 GameState.DebugPrintEntityChoices() -   Source=[entityName=克苏恩仪式 id=43 zone=SECRET zonePos=0 cardId=BE_726 player=2]
+D 10:25:18.9353157 GameState.DebugPrintEntityChoices() -   Entities[0]=[entityName=钢铁魔像 id=196 zone=PLAY zonePos=3 cardId=BE_561t player=1]
+D 10:25:18.9353157 GameState.DebugPrintEntityChoices() -   Entities[1]=[entityName=古神主谋尤格-萨隆 id=13 zone=PLAY zonePos=2 cardId=BE_009 player=1]
+D 10:25:18.9353157 GameState.DebugPrintEntityChoices() -   Entities[2]=[entityName=库区守卫 id=6 zone=PLAY zonePos=1 cardId=BE_151 player=1]
+D 10:26:27.2277504 GameState.DebugPrintEntitiesChosen() - id=12 Player=玩家#0000 EntitiesCount=1
+D 10:26:27.2277504 GameState.DebugPrintEntitiesChosen() -   Entities[0]=[entityName=古神主谋尤格-萨隆 id=13 zone=PLAY zonePos=2 cardId=BE_009 player=1]

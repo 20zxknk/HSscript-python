@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hspy"
+version = "0.1.0"
+description = "炉石自动打牌：读 Power.log、拿盒子推荐、真实鼠标执行"
+requires-python = ">=3.11"
+dependencies = ["pywin32>=306", "pillow>=10", "pyyaml>=6"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "coverage>=7", "diff-cover>=9", "ruff>=0.6"]
+
+[project.scripts]
+hspy = "hspy.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+norecursedirs = ["logs", ".captures", "records", "evidence", "data", "test*", "scripts", "src"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+extend-exclude = ["logs", ".captures", "record*", "tests/fixtures"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = ["E501", "E741"]

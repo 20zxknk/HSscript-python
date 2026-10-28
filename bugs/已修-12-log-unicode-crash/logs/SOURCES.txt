@@ -1,0 +1,3 @@
+原始文件：
+  err-v1-unicodeencodeerror.log  test/v1/err.log
+  run-v1-before-crash.log        test/v1/run.log
