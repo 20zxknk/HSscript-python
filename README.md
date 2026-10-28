@@ -51,3 +51,7 @@ python -X utf8 -m pytest                  # 标准 pytest
 ## 许可
 
 GPL-3.0，见 [LICENSE](LICENSE)。
+
+---
+
+有用记得点个 Star。
